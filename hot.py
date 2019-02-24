@@ -1,7 +1,7 @@
 from selenium import webdriver
 import pickle
 import time
-
+#
 
 driver = webdriver.Firefox()
 driver.get("https://aliexpress.com")
