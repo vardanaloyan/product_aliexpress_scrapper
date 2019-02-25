@@ -1,0 +1,6 @@
+productid,country,company,cost,estimatedTime,tracked
+32868589524,GR,China Post Registered Air Mail,2.32 USD,22-38 days,true
+32868589524,GR,ePacket,5.19 USD,20-35 days,false
+32868589524,GR,AliExpress Standard Shipping,5.48 USD,20-34 days,true
+32868589524,GR,EMS,32.80 USD,15-27 days,true
+32868589524,GR,DHL,51.82 USD,11-23 days,true
