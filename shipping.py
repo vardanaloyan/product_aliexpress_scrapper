@@ -1,14 +1,35 @@
 import csv
 import requests
+shipping_country_codes =     ['AR', 'AT', 'AU', 'BE', 'BR', 'CA', 'CH', 'CL', 'CZ', 'DE', 'DK',
+                              'ES', 'FI', 'FR', 'GB', 'IE', 'IL', 'IN', 'IT', 'MX', 'NL', 'NO',
+                              'NZ', 'PL', 'PT', 'RU', 'SE', 'SK', 'TR', 'US', 'AG', 'AO', 'AW',
+                              'DZ', 'AI', 'AQ', 'AX', 'AS', 'AF', 'AL', 'AD', 'AM', 'BM', 'BG',
+                              'BQ', 'BI', 'TD', 'BW', 'BS', 'BT', 'KH', 'BZ', 'BF', 'BA', 'BN',
+                              'BY', 'AZ', 'BD', 'BB', 'BV', 'IO', 'CV', 'CF', 'CM', 'KY', 'BJ',
+                              'BO', 'BH', 'CX', 'CK', 'GF', 'DJ', 'CI', 'CU', 'CY', 'CR', 'CW',
+                              'EC', 'FK', 'CC', 'EE', 'FO', 'CN', 'CO', 'CD', 'DO', 'FJ', 'SV',
+                              'GQ', 'HR', 'DM', 'KM', 'ET', 'CG', 'EG', 'ER', 'GG', 'GY', 'GL',
+                              'GD', 'GU', 'ID', 'GM', 'HT', 'HM', 'GW', 'IS', 'GI', 'GN', 'GE',
+                              'GR', 'GH', 'VA', 'HK', 'GA', 'TF', 'HU', 'PF', 'GP', 'HN', 'GT',
+                              'KI', 'KP', 'IQ', 'IR', 'KP', 'IR', 'MT', 'MR', 'MM', 'MW', 'MV',
+                              'MU', 'MC', 'MZ', 'YT', 'NR', 'MD', 'ME', 'LS', 'MO', 'MQ', 'NC',
+                              'KW', 'LV', 'MG', 'MN', 'MH', 'MS', 'NP', 'LU', 'LB', 'MY', 'NA',
+                              'LI', 'LT', 'ML', 'FM', 'KG', 'LY', 'MK', 'MA', 'PH', 'PG', 'PE',
+                              'PN', 'PS', 'RE', 'NE', 'NI', 'PR', 'QA', 'PA', 'NG', 'PY', 'MP',
+                              'OM', 'PK', 'PW', 'NU', 'NF', 'RO', 'SH', 'LC', 'SI', 'KN', 'SN',
+                              'SX', 'SB', 'GS', 'WS', 'SC', 'SA', 'SO', 'ST', 'BL', 'SM', 'SL',
+                              'MF', 'RW', 'PM', 'RS', 'VC', 'SG', 'ZA', 'SZ', 'SY', 'TZ', 'LK',
+                              'SR', 'TH', 'SJ', 'TW', 'TJ', 'SD', 'TM', 'TG', 'TO', 'TL', 'UA',
+                              'TT', 'TN', 'TC', 'TK', 'UG', 'TV', 'AE', 'VU', 'VE', 'UY', 'UM',
+                              'UZ', 'VN', 'YE', 'VG', 'EH', 'ZM', 'WF', 'VI', 'ZW', 'LR']
 
+# shipping_country_codes =     ['AR', 'AT', 'AU', 'BE']
+shippings = []
 
-def extract_product_shipping(product_id, max_page=200):
+def extract_product_shipping(product_id, country, unit = "USD"):
     url_template = 'https://freight.aliexpress.com/ajaxFreightCalculateService.htm?callback=jQuery1830650128321702308_1551079034704&f=d&productid={product_id}&count=1&minPrice=5.30&maxPrice=5.30&currencyCode={currencyCode}&transactionCurrencyCode={transactionCurrencyCode}&sendGoodsCountry=&country={country}&province=&city=&abVersion=1&_=1551080238699'
-    currencyCode = "USD"
-    transactionCurrencyCode = "USD"
-    country = "GR"
+    currencyCode = transactionCurrencyCode = unit
     initial_url = url_template.format(product_id = product_id, currencyCode = currencyCode, transactionCurrencyCode=transactionCurrencyCode, country = country)
-    shippings = []
 
     s = requests.Session()
 
@@ -23,69 +44,27 @@ def extract_product_shipping(product_id, max_page=200):
         for dct in data:
 #            print 'country: ', country, ', company: ', dct['companyDisplayName'], ', EstimatedTime: ', dct['time'], ', cost: ', dct['price'], ', tracked: ',dct['isTracked']
             temp_dct = dict(productid = product_id, country = country, company = dct['companyDisplayName'],  cost = dct['price']+ ' %s' %currencyCode, estimatedTime = dct['time'] + ' days', tracked = dct['isTracked'])
+            global keys
             keys = ['productid', 'country', 'company', 'cost', 'estimatedTime', 'tracked']
             shippings.append(temp_dct)
 
-        itr = 0
-        with open('sheepings.csv', 'w') as output_file:
-            dict_writer = csv.DictWriter(output_file, keys)
-            if itr == 0:
-                dict_writer.writeheader()
-                itr += 1
-            dict_writer.writerows(shippings)
-        # print dct
-#        data = resp.json()
-#        print data.keys()
-    #     total_page = data['totalPage']
-    #     print (data.keys())
-    #     print (data['totalNum'])
-    #     print (total_page)
-    #     total_page = min([total_page, max_page])
-    #     reviews += data['evaViewList']
 
-    #     if total_page > 1:
-    #         next_page = 2
-    #         while next_page <= total_page:
-    #             print('{}\t{}/{}'.format(product_id, next_page, total_page))
-    #             next_url = url_template.format(next_page, product_id)
-    #             resp = s.get(next_url)
+def iterShipping(product_id):
+    for i, country in enumerate(shipping_country_codes):
+        extract_product_shipping(product_id, country)
+        print "Processed {}/{} ".format(i+1, len(shipping_country_codes))
 
-    #             next_page += 1
-
-    #             try:
-    #                 data = resp.json()
-    #             except Exception:
-    #                 continue
-
-    #             reviews += data['evaViewList']
-
-    # filtered_reviews = []
-    # for review in reviews:
-    #     data = {
-    #         'anonymous': review['anonymous'],
-    #         'buyerCountry': review['buyerCountry'],
-    #         'buyerEval': review['buyerEval'],
-    #         'buyerFeedback': review['buyerFeedback'],
-    #         'buyerGender': review['buyerGender'] if 'buyerGender' in review else '',
-    #         'buyerHeadPortrait': review['buyerHeadPortrait'] if 'buyerHeadPortrait' in review else '',
-    #         'buyerId': review['buyerId'] if 'buyerId' in review else '',
-    #         'buyerName': review['buyerName'],
-    #         'evalDate': review['evalDate'],
-    #         'image': review['images'][0] if 'images' in review and len(review['images']) > 0 else '',
-    #         'logistics': review['logistics'] if 'logistics' in review else '',
-    #         'skuInfo': review['skuInfo'] if 'skuInfo' in review else '',
-    #         'thumbnail': review['thumbnails'][0] if 'thumbnails' in review and len(review['thumbnails']) > 0 else '',
-    #     }
-    #     filtered_reviews.append(data)
-
-    # keys = filtered_reviews[0].keys()
-    # with open('reviews.csv', 'w') as output_file:
-    #     dict_writer = csv.DictWriter(output_file, keys)
-    #     dict_writer.writeheader()
-    #     dict_writer.writerows(filtered_reviews)
-    # return filtered_reviews
-
-
+    print "Writing csv file..."
+    itr = 0
+    with open('sheepings.csv', 'w') as output_file:
+        dict_writer = csv.DictWriter(output_file, keys)
+        if itr == 0:
+            dict_writer.writeheader()
+            itr += 1
+        dict_writer.writerows(shippings)
+    print "Finised..."
+ 
 if __name__ == '__main__':
-    extract_product_shipping('32868589524')
+    iterShipping('32868589524')
+
 
