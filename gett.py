@@ -76,22 +76,22 @@ def extract_product_info(product_url):
 
     row = {
         'product_id': product_id,
-        'title': title,
-        'description': description,
+        'name': title,
+        'description_text': eval(description),
         'price': price,
         'discount_price': discount_price,
-        'stars': stars,
-        'votes': votes,
-        'orders': orders,
-        'wishlists': wishlists,
-        'is_free_shipping': is_free_shipping,
-        'is_epacket': is_epacket,
+#        'stars': stars,
+#        'votes': votes,
+#        'orders': orders,
+#        'wishlists': wishlists,
+#        'is_free_shipping': is_free_shipping,
+#        'is_epacket': is_epacket,
         'primary_image_url': primary_image_url,
-        'store_id': store_id,
-        'store_name': store_name,
-        'store_start_date': store_start_date,
-        'store_feedback_score': store_feedback_score,
-        'store_positive_feedback_rate': store_positive_feedback_rate,
+#        'store_id': store_id,
+#        'store_name': store_name,
+#        'store_start_date': store_start_date,
+#        'store_feedback_score': store_feedback_score,
+#        'store_positive_feedback_rate': store_positive_feedback_rate,
         'category': category,
         'product_url': product_url
     }
@@ -99,10 +99,16 @@ def extract_product_info(product_url):
 
 
 if __name__ == '__main__':
-    out = extract_product_info('https://ru.aliexpress.com/item/2016-nuevos-hombres-Ciclismo-Ciclismo-Gafas-Sunglass-Gafas-al-aire-libre-para-bicicleta-Deportes-UV400-Gafas/32595591034.html?spm=2114.33020108.8.27.3a0e7bKp7bKpaP&amp%3Bpvid=6accd090-ba0c-439e-a795-32777984f763&amp%3Bscm=1007.17258.123254.0')
+    url = 'https://www.aliexpress.com/item/Balabala-girls-Floral-dresses-cute-cotton-Sleeveless-dress-for-baby-girl-children-clothing-costume-girl-dresses/32868589524.html?spm=a2g01.11715694.fdpcl001.2.1b3425c48gJFHo&amp;gps-id=5547572&amp;scm=1007.19201.111800.0&amp;scm_id=1007.19201.111800.0&amp;scm-url=1007.19201.111800.0&amp;pvid=9c59170d-1d95-4973-9e2f-43f35324ed37'
+    out = extract_product_info(url)
 #    for i in out:
 #	print i,": ",out[i]
-    fields = list(out.keys())
+    #fields = list(out.keys())
+    # 'colors', 'sizes', 'product_type', 'description_images', 'subcategory1', 'subcategory2', 'subcategory3', 'image_urls'
+    #print (str(eval(out['description_text'])))
+    fields = ['product_url', 'product_id', 'name', 'price', 'discount_price', 'category', 'description_text', 'primary_image_url']
+    print (out["product_id"])
+#    fields = ['description', 'wishlists', 'category', 'is_epacket', 'product_id', 'store_name', 'orders', 'store_id', 'product_url', 'store_start_date', 'discount_price', 'store_feedback_score', 'is_free_shipping', 'price', 'votes', 'store_positive_feedback_rate', 'stars', 'primary_image_url', 'title']
     with open('basic.csv', 'a', encoding="utf-8") as f:
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
