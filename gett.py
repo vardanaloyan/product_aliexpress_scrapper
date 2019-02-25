@@ -4,6 +4,7 @@ import json
 import pickle
 from datetime import datetime
 from bs4 import BeautifulSoup
+import bs4
 import sys ,os,re, csv
 import requests
 headers = {
@@ -32,6 +33,7 @@ def extract_product_info(product_url):
     properties = soup.findAll('li', {'class': 'property-item'})
     attrs_dict = {}
     for item in properties:
+        # print item
         name = item.find('span', {'class': 'propery-title'}).text[:-1]
         val = item.find('span', {'class': 'propery-des'}).text
         attrs_dict[name] = val
@@ -75,12 +77,40 @@ def extract_product_info(product_url):
     except Exception:
         category = ''
 
+    colors = [i['title'] for i in soup.find('ul', {'id': 'j-sku-list-1'}).findAll('a') if isinstance(i, bs4.element.Tag)]
+    sizes =  [i.find('span').text for i in soup.find('ul', {'id': 'j-sku-list-2'}).findAll('a')]
+    
+    main_images = soup.find('div', {'id': 'j-detail-gallery-main'}).findAll('script')
+
+    # regex_string = '{parameter}= "(.*?)"'.format(parameter='window.runParams.mainBigPic ')
+    # print re.findall(regex_string, i.text)
+
+    s=main_images[-1].text
+    image_urls = s[s.find("[")+1:s.find("]")].strip().replace('\t','').replace('\n','')
+    # for i in desc_images:
+    #     if hasattr(i.img, 'text'):
+    #         print i.img['src']
+
+
+    # desc_images = soup.find_all('img')
+    # print len(desc_images)
+    # for i in desc_images:
+        
+    #     try:
+    #         print i.find('img')['bigpic']
+    #     except: pass
+    # print desc_images
+
+
     row = {
         'product_id': product_id,
         'name': title,
         'description_text': eval(description),
         'price': price,
         'discount_price': discount_price,
+        'colors': colors,
+        'sizes': sizes,
+        'image_urls': image_urls,
 #        'stars': stars,
 #        'votes': votes,
 #        'orders': orders,
@@ -102,15 +132,17 @@ def extract_product_info(product_url):
 if __name__ == '__main__':
     url = 'https://www.aliexpress.com/item/Balabala-girls-Floral-dresses-cute-cotton-Sleeveless-dress-for-baby-girl-children-clothing-costume-girl-dresses/32868589524.html?spm=a2g01.11715694.fdpcl001.2.1b3425c48gJFHo&amp;gps-id=5547572&amp;scm=1007.19201.111800.0&amp;scm_id=1007.19201.111800.0&amp;scm-url=1007.19201.111800.0&amp;pvid=9c59170d-1d95-4973-9e2f-43f35324ed37'
     out = extract_product_info(url)
+    # print out["name"]
 #    for i in out:
 #	print i,": ",out[i]
     #fields = list(out.keys())
     # 'colors', 'sizes', 'product_type', 'description_images', 'subcategory1', 'subcategory2', 'subcategory3', 'image_urls'
     #print (str(eval(out['description_text'])))
-    fields = ['product_url', 'product_id', 'name', 'price', 'discount_price', 'category', 'description_text', 'primary_image_url']
-    print (out["product_id"])
+    fields = ['product_url', 'product_id', 'name', 'price', 'discount_price', 'category', 'colors', 'sizes', 'description_text', 'image_urls', 'primary_image_url']
+    # print (out["product_id"])
 #    fields = ['description', 'wishlists', 'category', 'is_epacket', 'product_id', 'store_name', 'orders', 'store_id', 'product_url', 'store_start_date', 'discount_price', 'store_feedback_score', 'is_free_shipping', 'price', 'votes', 'store_positive_feedback_rate', 'stars', 'primary_image_url', 'title']
-    with open('basic.csv', 'a', encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fields)
-        writer.writeheader()
-        writer.writerow(out)
+
+    # with open('basic.csv', 'a', encoding="utf-8") as f:
+    #     writer = csv.DictWriter(f, fields)
+    #     writer.writeheader()
+    #     writer.writerow(out)
