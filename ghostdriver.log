@@ -1,0 +1,43 @@
+[INFO  - 2019-02-26T08:02:28.022Z] GhostDriver - Main - running on port 53628
+[INFO  - 2019-02-26T08:02:28.973Z] Session [dc9144a0-399c-11e9-9988-bf38422039c9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-02-26T08:02:28.973Z] Session [dc9144a0-399c-11e9-9988-bf38422039c9] - page.customHeaders:  - {}
+[INFO  - 2019-02-26T08:02:28.973Z] Session [dc9144a0-399c-11e9-9988-bf38422039c9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-02-26T08:02:28.973Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: dc9144a0-399c-11e9-9988-bf38422039c9
+[ERROR - 2019-02-26T08:02:31.254Z] Session [dc9144a0-399c-11e9-9988-bf38422039c9] - page.onError - msg: TypeError: undefined is not a function (evaluating 'w.includes(window.location.host)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-26T08:02:31.254Z] Session [dc9144a0-399c-11e9-9988-bf38422039c9] - page.onError - stack:
+  _getGlobalTargetUrl (https://i.alicdn.com/ae-header/20190108161825/buyer/front/ae-header.js:11)
+  _renderGlobalSite (https://i.alicdn.com/ae-header/20190108161825/buyer/front/ae-header.js:11)
+  render (https://i.alicdn.com/ae-header/20190108161825/buyer/front/ae-header.js:11)
+  b (https://i.alicdn.com/ae-header/20190108161825/buyer/front/ae-header.js:15)
+  (anonymous function) (https://i.alicdn.com/ae-header/20190108161825/buyer/front/ae-header.js:15)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-26T08:02:32.235Z] Session [dc9144a0-399c-11e9-9988-bf38422039c9] - page.onError - msg: TypeError: null is not an object (evaluating 'Detail.init')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-26T08:02:32.235Z] Session [dc9144a0-399c-11e9-9988-bf38422039c9] - page.onError - stack:
+  (anonymous function) (https://ru.aliexpress.com/item/TANGUOANT-Hot-Sale-1-8-Years-Girls-Short-Sleeve-Blue-Stripe-Summer-Dress-Cotton-Casual-Dresses/32815412601.html?spm=2114.search0103.3.17.47265708L1fMAH&ws_ab_test=searchweb0_0%2Csearchweb201602_4_10065_10068_319_10059_10884_317_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_537_536_10902%2Csearchweb201603_56%2CppcSwitch_0&algo_pvid=77be1888-4aae-4f97-9403-1053f9f9e2af&algo_expid=77be1888-4aae-4f97-9403-1053f9f9e2af-2:1577)
+  (anonymous function) (https://i.alicdn.com/ae-global/atom/??atom.75738738.js:1)
+  callback (https://i.alicdn.com/ae-global/atom/??atom.75738738.js:1)
+  onload (https://i.alicdn.com/ae-global/atom/??atom.75738738.js:1)
+  onload (https://i.alicdn.com/ae-global/atom/??atom.75738738.js:1)
+  load (https://i.alicdn.com/ae-global/atom/??atom.75738738.js:1)
+  c (https://i.alicdn.com/ae-global/atom/??atom.75738738.js:1)
+  i (https://i.alicdn.com/ae-global/atom/??atom.75738738.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-02-26T08:07:08.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T08:12:08.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T08:17:08.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T08:22:08.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T08:27:08.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T08:32:08.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T08:37:08.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T08:42:08.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T08:47:08.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T08:52:08.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T08:57:08.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T09:02:08.323Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-02-26T09:02:23.125Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

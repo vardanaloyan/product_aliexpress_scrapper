@@ -19,6 +19,7 @@ def extract_product_info(product_url):
     soup = BeautifulSoup(content, "html.parser")
 
     product_id = soup.find('input', {'id': 'hid-product-id'})['value']
+    print "product-> ", product_id
     title = soup.find('h1', {'class': 'product-name'}).text
 #    print title
     price= soup.find('span', {'id': 'j-sku-price', 'class': 'p-price'}).text
@@ -86,6 +87,10 @@ def extract_product_info(product_url):
 
     s=main_images[-1].text
     image_urls = s[s.find("[")+1:s.find("]")].strip().replace('\t','').replace('\n','')
+
+    # desc_images = soup.find("div", {"class": "origin-part"})
+    # for i in desc_images:
+    #     print i['src']
     # for i in desc_images:
     #     if hasattr(i.img, 'text'):
     #         print i.img['src']
@@ -130,6 +135,7 @@ def extract_product_info(product_url):
 
 if __name__ == '__main__':
     url = 'https://www.aliexpress.com/item/Balabala-girls-Floral-dresses-cute-cotton-Sleeveless-dress-for-baby-girl-children-clothing-costume-girl-dresses/32868589524.html?spm=a2g01.11715694.fdpcl001.2.1b3425c48gJFHo&amp;gps-id=5547572&amp;scm=1007.19201.111800.0&amp;scm_id=1007.19201.111800.0&amp;scm-url=1007.19201.111800.0&amp;pvid=9c59170d-1d95-4973-9e2f-43f35324ed37'
+    url = 'https://www.aliexpress.com/item/TANGUOANT-Hot-Sale-1-8-Years-Girls-Short-Sleeve-Blue-Stripe-Summer-Dress-Cotton-Casual-Dresses/32815412601.html?spm=2114.search0103.3.17.47265708L1fMAH&ws_ab_test=searchweb0_0,searchweb201602_4_10065_10068_319_10059_10884_317_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_537_536_10902,searchweb201603_56,ppcSwitch_0&algo_expid=77be1888-4aae-4f97-9403-1053f9f9e2af-2&algo_pvid=77be1888-4aae-4f97-9403-1053f9f9e2af'
     out = extract_product_info(url)
     # print out["name"]
 #    for i in out:
