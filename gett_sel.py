@@ -105,11 +105,25 @@ def extract_product_info(product_url):
     #         store_feedback_score = -1
     #         store_positive_feedback_rate = -1
 
+    category = ""
+    subcategory1 = ""
+    subcategory2 = ""
+
     try:
         cats = [item.text for item in soup.find('div', {'class': 'ui-breadcrumb'}).findAll('a')]
-        category = '||'.join(cats)
+        # category = '||'.join(cats)
     except Exception:
-        category = ''
+        # category = ''
+        cats = []
+
+    if len(cats) > 2:
+        category = cats[2]
+
+        for i, sub in enumerate(cats[3:]):
+            if i == 1:
+                subcategory1 = sub
+            elif i == 2:
+                subcategory2 = sub
 
     colors = [i['title'] for i in soup.find('ul', {'id': 'j-sku-list-1'}).findAll('a') if isinstance(i, bs4.element.Tag)]
     sizes =  [i.find('span').text for i in soup.find('ul', {'id': 'j-sku-list-2'}).findAll('a')]
@@ -121,6 +135,11 @@ def extract_product_info(product_url):
 
     s=main_images[-1].text
     image_urls = s[s.find("[")+1:s.find("]")].strip().replace('\t','').replace('\n','')
+    
+    if len(colors) or len(sizes):
+        productType = "variable"
+    else:
+        productType = "single"
 
 
 
@@ -132,6 +151,7 @@ def extract_product_info(product_url):
         'discount_price': discount_price,
         'colors': colors,
         'sizes': sizes,
+        'productType': productType,
         'image_urls': image_urls,
         'desc_images' : desc_urls,
 #        'stars': stars,
@@ -147,6 +167,8 @@ def extract_product_info(product_url):
 #        'store_feedback_score': store_feedback_score,
 #        'store_positive_feedback_rate': store_positive_feedback_rate,
         'category': category,
+        'subcategory1': subcategory1,
+        'subcategory2': subcategory2,
         'product_url': product_url
     }
     return row
@@ -169,12 +191,15 @@ if __name__ == '__main__':
     url = "https://ru.aliexpress.com/item/-/32967878147.html?spm=a2g0v.search0103.3.17.43941f225mWiJh&ws_ab_test=searchweb0_0%2Csearchweb201602_4_10065_10068_319_10059_10884_317_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_537_536_10902%2Csearchweb201603_56%2CppcSwitch_0&algo_pvid=b37be78e-4543-4d7f-b3b6-f57bc01fd224&algo_expid=b37be78e-4543-4d7f-b3b6-f57bc01fd224-2"
     out = extract_product_info(url)
     # print out["name"]
-    for i in out:
-        print(i,' : ', out[i])
+    # print (out["subcategory1"])
+    # print (out["subcategory2"])
+    # for i in out:
+    #     print(i,' : ', out[i])
+
     #fields = list(out.keys())
     # 'colors', 'sizes', 'product_type', 'description_images', 'subcategory1', 'subcategory2', 'subcategory3', 'image_urls'
     #print (str(eval(out['description_text'])))
-    fields = ['product_url', 'product_id', 'name', 'price', 'discount_price', 'category', 'colors', 'sizes', 'description_text', 'primary_image_url', 'image_urls', 'desc_images']
+    fields = ['product_url', 'product_id', 'name', 'price', 'discount_price', 'category', 'subcategory1', 'subcategory2', 'colors', 'sizes', 'productType', 'description_text', 'primary_image_url', 'image_urls', 'desc_images']
     # print (out["product_id"])
 #    fields = ['description', 'wishlists', 'category', 'is_epacket', 'product_id', 'store_name', 'orders', 'store_id', 'product_url', 'store_start_date', 'discount_price', 'store_feedback_score', 'is_free_shipping', 'price', 'votes', 'store_positive_feedback_rate', 'stars', 'primary_image_url', 'title']
 
