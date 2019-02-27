@@ -1,0 +1,1564 @@
+productid,country,company,cost,estimatedTime,tracked
+32859893411,AR,China Post Registered Air Mail,2.15 USD,44-60 days,true
+32859893411,AR,AliExpress Standard Shipping,5.79 USD,46-60 days,true
+32859893411,AR,EMS,39.24 USD,27 days,true
+32859893411,AR,DHL,99.45 USD,15-23 days,true
+32859893411,AT,China Post Registered Air Mail,0 USD,23-36 days,true
+32859893411,AT,AliExpress Standard Shipping,5.51 USD,17-28 days,true
+32859893411,AT,ePacket,5.59 USD,20-35 days,true
+32859893411,AT,EMS,32.80 USD,17-27 days,true
+32859893411,AT,DHL,51.82 USD,8-19 days,true
+32859893411,AU,China Post Registered Air Mail,0 USD,24-49 days,false
+32859893411,AU,ePacket,4.59 USD,13-20 days,true
+32859893411,AU,AliExpress Standard Shipping,6.18 USD,20-41 days,false
+32859893411,AU,EMS,24.60 USD,11-19 days,true
+32859893411,AU,DHL,39.49 USD,8-16 days,true
+32859893411,BE,China Post Registered Air Mail,2.29 USD,30 days,true
+32859893411,BE,AliExpress Standard Shipping,5.34 USD,21 days,true
+32859893411,BE,ePacket,5.59 USD,22 days,true
+32859893411,BE,EMS,32.80 USD,27 days,true
+32859893411,BE,DHL,51.82 USD,8-18 days,true
+32859893411,BR,AliExpress Standard Shipping,0 USD,48 days,true
+32859893411,BR,ePacket,6.06 USD,35 days,true
+32859893411,BR,EMS,39.24 USD,27 days,true
+32859893411,BR,DHL,99.45 USD,14-23 days,true
+32859893411,CA,China Post Registered Air Mail,0 USD,39-59 days,false
+32859893411,CA,ePacket,4.71 USD,16-26 days,true
+32859893411,CA,AliExpress Standard Shipping,7.05 USD,15-30 days,true
+32859893411,CA,EMS,32.80 USD,15-27 days,true
+32859893411,CA,DHL,40.27 USD,7-16 days,true
+32859893411,CH,China Post Registered Air Mail,0 USD,18-27 days,true
+32859893411,CH,AliExpress Standard Shipping,5.29 USD,15-22 days,true
+32859893411,CH,ePacket,5.59 USD,20-35 days,true
+32859893411,CH,EMS,32.80 USD,11-21 days,true
+32859893411,CH,DHL,51.82 USD,9-20 days,true
+32859893411,CL,AliExpress Standard Shipping,0 USD,20-31 days,true
+32859893411,CL,DHL,99.45 USD,12-23 days,true
+32859893411,CZ,China Post Registered Air Mail,0 USD,35 days,true
+32859893411,CZ,AliExpress Standard Shipping,5.85 USD,27 days,true
+32859893411,CZ,EMS,39.24 USD,27 days,true
+32859893411,CZ,DHL,51.82 USD,9-18 days,true
+32859893411,DE,ePacket,0 USD,24 days,true
+32859893411,DE,China Post Registered Air Mail,0 USD,32 days,false
+32859893411,DE,AliExpress Standard Shipping,5.32 USD,23 days,false
+32859893411,DE,EMS,32.80 USD,27 days,true
+32859893411,DE,DHL,51.82 USD,8-17 days,true
+32859893411,DK,China Post Registered Air Mail,2.32 USD,23-41 days,true
+32859893411,DK,AliExpress Standard Shipping,5.52 USD,14-23 days,true
+32859893411,DK,ePacket,5.59 USD,20-35 days,true
+32859893411,DK,EMS,32.80 USD,22-27 days,true
+32859893411,DK,DHL,51.82 USD,7-14 days,true
+32859893411,ES,AliExpress Standard Shipping,0 USD,18 days,true
+32859893411,ES,EMS,32.80 USD,27 days,true
+32859893411,ES,DHL,51.82 USD,7-16 days,true
+32859893411,FI,China Post Registered Air Mail,0 USD,18-29 days,true
+32859893411,FI,AliExpress Standard Shipping,5.71 USD,15-24 days,true
+32859893411,FI,ePacket,5.71 USD,20-35 days,true
+32859893411,FI,EMS,32.80 USD,16-27 days,true
+32859893411,FI,DHL,51.82 USD,9-22 days,true
+32859893411,FR,AliExpress Standard Shipping,0 USD,18 days,true
+32859893411,FR,EMS,32.80 USD,27 days,true
+32859893411,FR,DHL,51.82 USD,7-14 days,true
+32859893411,IE,China Post Registered Air Mail,0 USD,24-35 days,true
+32859893411,IE,AliExpress Standard Shipping,5.52 USD,17-25 days,true
+32859893411,IE,ePacket,5.71 USD,20-35 days,true
+32859893411,IE,EMS,32.80 USD,15-27 days,true
+32859893411,IE,DHL,51.82 USD,7-15 days,true
+32859893411,IL,ePacket,0 USD,19-32 days,true
+32859893411,IL,China Post Registered Air Mail,0 USD,25-41 days,true
+32859893411,IL,AliExpress Standard Shipping,5.73 USD,24-40 days,true
+32859893411,IL,EMS,39.24 USD,18-27 days,true
+32859893411,IL,DHL,66.25 USD,10-21 days,true
+32859893411,IN,China Post Registered Air Mail,0 USD,27-40 days,true
+32859893411,IN,AliExpress Standard Shipping,5.52 USD,18-28 days,true
+32859893411,IN,EMS,35.14 USD,17-27 days,true
+32859893411,IN,DHL,51.82 USD,10-21 days,true
+32859893411,IT,China Post Registered Air Mail,0 USD,39 days,true
+32859893411,IT,ePacket,5.59 USD,31 days,true
+32859893411,IT,AliExpress Standard Shipping,6.62 USD,36 days,true
+32859893411,IT,EMS,32.80 USD,14-27 days,true
+32859893411,IT,DHL,51.82 USD,7-14 days,true
+32859893411,MX,China Post Registered Air Mail,2.32 USD,59 days,true
+32859893411,MX,ePacket,6.18 USD,35 days,true
+32859893411,MX,AliExpress Standard Shipping,6.64 USD,46 days,true
+32859893411,MX,EMS,39.24 USD,27 days,true
+32859893411,MX,DHL,40.27 USD,9-19 days,true
+32859893411,NL,AliExpress Standard Shipping,0 USD,15 days,true
+32859893411,NL,EMS,32.80 USD,27 days,false
+32859893411,NL,DHL,51.82 USD,7-14 days,true
+32859893411,NO,China Post Registered Air Mail,0 USD,19-31 days,true
+32859893411,NO,ePacket,4.71 USD,13-22 days,true
+32859893411,NO,AliExpress Standard Shipping,5.42 USD,17-26 days,true
+32859893411,NO,EMS,32.80 USD,14-27 days,true
+32859893411,NO,DHL,51.82 USD,8-16 days,true
+32859893411,NZ,China Post Registered Air Mail,0 USD,14-25 days,true
+32859893411,NZ,ePacket,0 USD,20-35 days,true
+32859893411,NZ,AliExpress Standard Shipping,5.26 USD,13-20 days,true
+32859893411,NZ,EMS,24.60 USD,11-19 days,true
+32859893411,NZ,DHL,39.49 USD,9-17 days,true
+32859893411,PL,AliExpress Standard Shipping,0 USD,28 days,true
+32859893411,PL,EMS,39.24 USD,27 days,true
+32859893411,PL,DHL,51.82 USD,8-15 days,true
+32859893411,PT,China Post Registered Air Mail,0 USD,21-38 days,true
+32859893411,PT,AliExpress Standard Shipping,5.49 USD,20-35 days,true
+32859893411,PT,ePacket,5.71 USD,20-35 days,true
+32859893411,PT,EMS,32.80 USD,27 days,true
+32859893411,PT,DHL,51.82 USD,8-21 days,true
+32859893411,RU,Russian Air,0 USD,26 days,true
+32859893411,RU,China Post Registered Air Mail,2.33 USD,38 days,true
+32859893411,RU,AliExpress Standard Shipping,5.02 USD,21 days,true
+32859893411,RU,EMS,39.24 USD,27 days,true
+32859893411,RU,DHL,99.45 USD,7-15 days,false
+32859893411,SE,China Post Registered Air Mail,0 USD,22-33 days,true
+32859893411,SE,ePacket,4.59 USD,20-35 days,true
+32859893411,SE,AliExpress Standard Shipping,5.41 USD,14-23 days,true
+32859893411,SE,EMS,32.80 USD,14-26 days,true
+32859893411,SE,DHL,51.82 USD,8-17 days,true
+32859893411,SK,China Post Registered Air Mail,1.86 USD,20-31 days,true
+32859893411,SK,AliExpress Standard Shipping,5.97 USD,20-27 days,true
+32859893411,SK,DHL,51.82 USD,10-23 days,true
+32859893411,TR,China Post Registered Air Mail,0 USD,28 days,true
+32859893411,TR,ePacket,5.59 USD,24 days,true
+32859893411,TR,AliExpress Standard Shipping,5.84 USD,25 days,true
+32859893411,TR,EMS,35.14 USD,27 days,true
+32859893411,TR,DHL,66.25 USD,9-21 days,true
+32859893411,US,AliExpress Standard Shipping,0 USD,23 days,true
+32859893411,US,ePacket,0 USD,23 days,true
+32859893411,US,EMS,28.12 USD,26 days,true
+32859893411,US,DHL,40.27 USD,6-13 days,true
+32859893411,AG,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,AG,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,AG,DHL,99.45 USD,7-15 days,true
+32859893411,AO,China Post Registered Air Mail,2.55 USD,26-44 days,false
+32859893411,AO,AliExpress Standard Shipping,6.36 USD,34-54 days,false
+32859893411,AO,DHL,99.45 USD,13-23 days,true
+32859893411,AW,China Post Registered Air Mail,2.74 USD,40-60 days,false
+32859893411,AW,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,AW,DHL,99.45 USD,7-15 days,true
+32859893411,DZ,China Post Registered Air Mail,2.55 USD,44-60 days,false
+32859893411,DZ,AliExpress Standard Shipping,6.36 USD,37-59 days,false
+32859893411,DZ,DHL,99.45 USD,11-23 days,true
+32859893411,AI,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,AI,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,AI,DHL,99.45 USD,7-15 days,true
+32859893411,AQ,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,AS,China Post Registered Air Mail,2.42 USD,20-40 days,false
+32859893411,AS,AliExpress Standard Shipping,5.84 USD,20-40 days,false
+32859893411,AS,DHL,99.45 USD,7-15 days,true
+32859893411,AF,China Post Registered Air Mail,2.55 USD,36-58 days,false
+32859893411,AF,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,AF,DHL,66.25 USD,7-15 days,true
+32859893411,AL,China Post Registered Air Mail,3.08 USD,21-36 days,true
+32859893411,AL,AliExpress Standard Shipping,6.06 USD,26-43 days,true
+32859893411,AL,DHL,99.45 USD,9-20 days,true
+32859893411,AD,China Post Registered Air Mail,2.55 USD,23-40 days,true
+32859893411,AD,AliExpress Standard Shipping,6.06 USD,21-34 days,true
+32859893411,AD,DHL,51.82 USD,7-15 days,true
+32859893411,AM,China Post Registered Air Mail,2.55 USD,35-59 days,false
+32859893411,AM,AliExpress Standard Shipping,6.06 USD,40-57 days,false
+32859893411,AM,DHL,99.45 USD,11-21 days,true
+32859893411,BM,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,BM,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,BM,DHL,99.45 USD,10-17 days,true
+32859893411,BG,China Post Registered Air Mail,0 USD,23-45 days,true
+32859893411,BG,AliExpress Standard Shipping,5.61 USD,14-28 days,true
+32859893411,BG,DHL,51.82 USD,11-20 days,true
+32859893411,BG,EMS,52.14 USD,14-27 days,true
+32859893411,BQ,AliExpress Standard Shipping,6.06 USD,20-40 days,true
+32859893411,BI,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,BI,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,BI,DHL,99.45 USD,7-15 days,true
+32859893411,TD,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,TD,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,TD,EMS,52.14 USD,7-15 days,true
+32859893411,TD,DHL,99.45 USD,7-15 days,true
+32859893411,BW,China Post Registered Air Mail,2.55 USD,41-59 days,false
+32859893411,BW,AliExpress Standard Shipping,6.36 USD,46-60 days,false
+32859893411,BW,EMS,52.14 USD,7-15 days,true
+32859893411,BW,DHL,99.45 USD,18-23 days,true
+32859893411,BS,China Post Registered Air Mail,2.74 USD,39-60 days,false
+32859893411,BS,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,BS,DHL,99.45 USD,7-15 days,true
+32859893411,BT,China Post Registered Air Mail,2.55 USD,18-28 days,true
+32859893411,BT,AliExpress Standard Shipping,5.68 USD,19-26 days,true
+32859893411,BT,DHL,99.45 USD,7-15 days,true
+32859893411,KH,China Post Registered Air Mail,1.94 USD,20-34 days,true
+32859893411,KH,AliExpress Standard Shipping,5.12 USD,16-28 days,true
+32859893411,KH,EMS,22.26 USD,12-21 days,true
+32859893411,KH,DHL,39.36 USD,8-14 days,true
+32859893411,BZ,China Post Registered Air Mail,2.55 USD,34-58 days,false
+32859893411,BZ,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,BZ,DHL,99.45 USD,7-15 days,true
+32859893411,BF,China Post Registered Air Mail,2.55 USD,24-40 days,true
+32859893411,BF,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,BF,EMS,52.14 USD,7-15 days,true
+32859893411,BF,DHL,99.45 USD,7-15 days,true
+32859893411,BA,China Post Registered Air Mail,2.60 USD,23-43 days,false
+32859893411,BA,AliExpress Standard Shipping,6.06 USD,31-56 days,false
+32859893411,BA,DHL,99.45 USD,7-15 days,true
+32859893411,BN,China Post Registered Air Mail,1.71 USD,29-44 days,false
+32859893411,BN,AliExpress Standard Shipping,5.08 USD,25-35 days,false
+32859893411,BN,DHL,39.36 USD,9-17 days,true
+32859893411,BY,China Post Registered Air Mail,0 USD,23-41 days,true
+32859893411,BY,AliExpress Standard Shipping,5.99 USD,23-38 days,true
+32859893411,BY,EMS,39.24 USD,20-27 days,true
+32859893411,BY,DHL,99.45 USD,7-15 days,true
+32859893411,AZ,China Post Registered Air Mail,2.55 USD,21-37 days,false
+32859893411,AZ,AliExpress Standard Shipping,6.13 USD,20-36 days,false
+32859893411,AZ,EMS,52.14 USD,5-17 days,false
+32859893411,AZ,DHL,99.45 USD,12-20 days,true
+32859893411,BD,China Post Registered Air Mail,2.55 USD,20-38 days,false
+32859893411,BD,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,BD,EMS,35.14 USD,7-15 days,true
+32859893411,BD,DHL,99.45 USD,7-15 days,true
+32859893411,BB,China Post Registered Air Mail,2.60 USD,33-53 days,true
+32859893411,BB,AliExpress Standard Shipping,6.36 USD,41-60 days,true
+32859893411,BB,DHL,99.45 USD,11-23 days,true
+32859893411,BV,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,IO,AliExpress Standard Shipping,6.06 USD,20-40 days,true
+32859893411,CV,China Post Registered Air Mail,2.55 USD,36-56 days,false
+32859893411,CV,AliExpress Standard Shipping,6.36 USD,27-41 days,false
+32859893411,CV,DHL,99.45 USD,11-23 days,true
+32859893411,CF,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,CF,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,CF,DHL,99.45 USD,7-15 days,true
+32859893411,CM,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,CM,DHL,99.45 USD,11-20 days,true
+32859893411,KY,China Post Registered Air Mail,2.74 USD,35-52 days,false
+32859893411,KY,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,KY,EMS,52.14 USD,7-15 days,true
+32859893411,KY,DHL,99.45 USD,9-20 days,true
+32859893411,BJ,China Post Registered Air Mail,2.55 USD,22-41 days,false
+32859893411,BJ,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,BJ,DHL,99.45 USD,7-15 days,true
+32859893411,BO,AliExpress Standard Shipping,6.36 USD,36-59 days,false
+32859893411,BO,DHL,99.45 USD,16-23 days,true
+32859893411,BH,China Post Registered Air Mail,2.62 USD,24-40 days,false
+32859893411,BH,AliExpress Standard Shipping,5.77 USD,20-37 days,false
+32859893411,BH,EMS,52.14 USD,14-24 days,true
+32859893411,BH,DHL,66.25 USD,9-17 days,true
+32859893411,CX,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,CX,AliExpress Standard Shipping,5.69 USD,20-40 days,true
+32859893411,CK,China Post Registered Air Mail,2.42 USD,23-39 days,false
+32859893411,CK,AliExpress Standard Shipping,5.80 USD,20-40 days,false
+32859893411,CK,DHL,99.45 USD,7-15 days,true
+32859893411,GF,China Post Registered Air Mail,2.55 USD,28-49 days,true
+32859893411,GF,AliExpress Standard Shipping,6.36 USD,25-42 days,true
+32859893411,GF,DHL,99.45 USD,7-15 days,false
+32859893411,DJ,China Post Registered Air Mail,2.55 USD,26-49 days,false
+32859893411,DJ,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,DJ,EMS,52.14 USD,7-15 days,true
+32859893411,DJ,DHL,99.45 USD,7-15 days,true
+32859893411,CI,China Post Registered Air Mail,2.55 USD,31-56 days,false
+32859893411,CI,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,CI,EMS,52.14 USD,7-15 days,true
+32859893411,CI,DHL,99.45 USD,7-15 days,true
+32859893411,CU,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,CU,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,CU,EMS,39.24 USD,7-15 days,true
+32859893411,CU,DHL,99.45 USD,7-15 days,true
+32859893411,CY,China Post Registered Air Mail,2.56 USD,24-43 days,true
+32859893411,CY,AliExpress Standard Shipping,6.06 USD,20-36 days,true
+32859893411,CY,DHL,51.82 USD,10-19 days,true
+32859893411,CY,EMS,52.14 USD,7-15 days,true
+32859893411,CR,China Post Registered Air Mail,2.55 USD,41-59 days,false
+32859893411,CR,AliExpress Standard Shipping,6.36 USD,45-60 days,false
+32859893411,CR,DHL,99.45 USD,11-23 days,true
+32859893411,CW,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,CW,DHL,99.45 USD,4-8 days,false
+32859893411,EC,China Post Registered Air Mail,2.55 USD,47-60 days,false
+32859893411,EC,AliExpress Standard Shipping,6.36 USD,49-60 days,false
+32859893411,EC,DHL,99.45 USD,13-23 days,true
+32859893411,FK,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,FK,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,FK,DHL,99.45 USD,7-15 days,true
+32859893411,CC,China Post Registered Air Mail,2.42 USD,20-40 days,true
+32859893411,CC,AliExpress Standard Shipping,5.69 USD,20-40 days,true
+32859893411,EE,China Post Registered Air Mail,2.02 USD,26-41 days,true
+32859893411,EE,AliExpress Standard Shipping,5.82 USD,15-23 days,true
+32859893411,EE,DHL,51.82 USD,10-23 days,true
+32859893411,EE,EMS,52.14 USD,15-27 days,true
+32859893411,FO,China Post Registered Air Mail,2.60 USD,27-54 days,false
+32859893411,FO,AliExpress Standard Shipping,6.06 USD,21-42 days,false
+32859893411,FO,DHL,99.45 USD,7-15 days,true
+32859893411,CO,China Post Registered Air Mail,2.55 USD,30-43 days,true
+32859893411,CO,AliExpress Standard Shipping,6.36 USD,23-35 days,true
+32859893411,CO,EMS,39.24 USD,22-27 days,true
+32859893411,CO,DHL,99.45 USD,11-23 days,true
+32859893411,DO,China Post Registered Air Mail,2.74 USD,49-60 days,false
+32859893411,DO,AliExpress Standard Shipping,6.36 USD,43-59 days,false
+32859893411,DO,DHL,99.45 USD,11-23 days,true
+32859893411,FJ,China Post Registered Air Mail,2.55 USD,29-49 days,true
+32859893411,FJ,AliExpress Standard Shipping,5.68 USD,23-45 days,true
+32859893411,FJ,DHL,99.45 USD,11-22 days,true
+32859893411,SV,China Post Registered Air Mail,2.55 USD,49-60 days,false
+32859893411,SV,AliExpress Standard Shipping,6.36 USD,35-56 days,false
+32859893411,SV,DHL,99.45 USD,23-40 days,true
+32859893411,GQ,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,GQ,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,GQ,DHL,99.45 USD,7-15 days,true
+32859893411,HR,China Post Registered Air Mail,2.19 USD,16-28 days,true
+32859893411,HR,AliExpress Standard Shipping,5.88 USD,14-22 days,true
+32859893411,HR,DHL,51.82 USD,11-23 days,true
+32859893411,HR,EMS,52.14 USD,7-15 days,true
+32859893411,DM,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,DM,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,DM,DHL,99.45 USD,7-15 days,true
+32859893411,KM,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,KM,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,KM,DHL,99.45 USD,7-15 days,true
+32859893411,ET,China Post Registered Air Mail,2.55 USD,26-60 days,false
+32859893411,ET,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,ET,EMS,52.14 USD,7-15 days,true
+32859893411,ET,DHL,99.45 USD,7-15 days,true
+32859893411,CG,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,CG,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,CG,EMS,52.14 USD,7-15 days,true
+32859893411,CG,DHL,99.45 USD,7-15 days,true
+32859893411,EG,China Post Registered Air Mail,2.55 USD,40-58 days,false
+32859893411,EG,AliExpress Standard Shipping,6.36 USD,36-57 days,false
+32859893411,EG,EMS,52.14 USD,7-15 days,true
+32859893411,EG,DHL,66.25 USD,10-23 days,true
+32859893411,ER,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,ER,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,ER,DHL,99.45 USD,7-15 days,true
+32859893411,GY,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,GY,EMS,39.24 USD,7-15 days,true
+32859893411,GY,DHL,99.45 USD,7-15 days,true
+32859893411,GL,China Post Registered Air Mail,2.60 USD,28-55 days,false
+32859893411,GL,AliExpress Standard Shipping,6.06 USD,20-40 days,false
+32859893411,GL,DHL,51.82 USD,7-15 days,true
+32859893411,GD,China Post Registered Air Mail,2.55 USD,37-60 days,false
+32859893411,GD,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,GD,DHL,99.45 USD,7-15 days,true
+32859893411,GU,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,GU,DHL,99.45 USD,7-15 days,true
+32859893411,ID,AliExpress Standard Shipping,0 USD,20-35 days,true
+32859893411,ID,China Post Registered Air Mail,0 USD,20-36 days,true
+32859893411,ID,EMS,22.26 USD,15-27 days,true
+32859893411,ID,DHL,39.36 USD,9-19 days,true
+32859893411,GM,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,GM,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,GM,DHL,99.45 USD,7-15 days,true
+32859893411,HT,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,HT,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,HT,DHL,99.45 USD,7-15 days,true
+32859893411,HM,AliExpress Standard Shipping,5.69 USD,20-40 days,true
+32859893411,GW,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,GW,DHL,99.45 USD,7-15 days,true
+32859893411,IS,China Post Registered Air Mail,2.61 USD,22-38 days,true
+32859893411,IS,AliExpress Standard Shipping,6.06 USD,25-40 days,true
+32859893411,IS,DHL,51.82 USD,12-23 days,true
+32859893411,GI,China Post Registered Air Mail,2.60 USD,28-51 days,true
+32859893411,GI,AliExpress Standard Shipping,6.06 USD,20-40 days,true
+32859893411,GI,DHL,51.82 USD,7-15 days,true
+32859893411,GN,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,GN,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,GN,EMS,52.14 USD,7-15 days,true
+32859893411,GN,DHL,99.45 USD,7-15 days,true
+32859893411,GE,China Post Registered Air Mail,2.55 USD,32-60 days,true
+32859893411,GE,AliExpress Standard Shipping,5.82 USD,24-39 days,true
+32859893411,GE,DHL,99.45 USD,10-20 days,true
+32859893411,GR,China Post Registered Air Mail,2.46 USD,22-38 days,true
+32859893411,GR,ePacket,5.59 USD,20-35 days,false
+32859893411,GR,AliExpress Standard Shipping,6.02 USD,20-34 days,true
+32859893411,GR,EMS,32.80 USD,15-27 days,true
+32859893411,GR,DHL,51.82 USD,11-23 days,true
+32859893411,GH,China Post Registered Air Mail,2.55 USD,37-57 days,false
+32859893411,GH,AliExpress Standard Shipping,6.36 USD,32-50 days,false
+32859893411,GH,EMS,52.14 USD,17-27 days,true
+32859893411,GH,DHL,99.45 USD,10-23 days,true
+32859893411,VA,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,VA,AliExpress Standard Shipping,6.06 USD,20-40 days,false
+32859893411,HK,ePacket,0 USD,20-35 days,false
+32859893411,HK,AliExpress Standard Shipping,5.12 USD,15-25 days,true
+32859893411,HK,EMS,15.23 USD,8-20 days,true
+32859893411,HK,DHL,26.11 USD,7-15 days,false
+32859893411,GA,China Post Registered Air Mail,2.55 USD,25-55 days,false
+32859893411,GA,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,GA,EMS,52.14 USD,7-15 days,true
+32859893411,GA,DHL,99.45 USD,7-15 days,true
+32859893411,TF,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,HU,China Post Registered Air Mail,0 USD,20-31 days,true
+32859893411,HU,ePacket,5.59 USD,20-35 days,true
+32859893411,HU,AliExpress Standard Shipping,5.94 USD,19-27 days,true
+32859893411,HU,EMS,39.24 USD,16-27 days,true
+32859893411,HU,DHL,51.82 USD,9-18 days,true
+32859893411,PF,China Post Registered Air Mail,2.42 USD,46-60 days,false
+32859893411,PF,AliExpress Standard Shipping,5.68 USD,29-47 days,false
+32859893411,GP,China Post Registered Air Mail,2.74 USD,25-44 days,true
+32859893411,GP,AliExpress Standard Shipping,6.36 USD,23-37 days,true
+32859893411,GP,DHL,99.45 USD,10-19 days,true
+32859893411,HN,China Post Registered Air Mail,2.55 USD,46-60 days,false
+32859893411,HN,AliExpress Standard Shipping,6.36 USD,44-60 days,false
+32859893411,HN,DHL,99.45 USD,7-15 days,true
+32859893411,GT,China Post Registered Air Mail,2.55 USD,52-60 days,false
+32859893411,GT,DHL,99.45 USD,13-23 days,true
+32859893411,KI,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,KI,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,KI,DHL,99.45 USD,7-15 days,true
+32859893411,KP,China Post Registered Air Mail,2.26 USD,20-40 days,true
+32859893411,KP,AliExpress Standard Shipping,5.68 USD,20-40 days,true
+32859893411,KP,EMS,21.08 USD,7-15 days,true
+32859893411,KP,DHL,99.45 USD,7-15 days,true
+32859893411,IQ,China Post Registered Air Mail,2.55 USD,36-56 days,false
+32859893411,IQ,AliExpress Standard Shipping,6.36 USD,37-55 days,false
+32859893411,IQ,EMS,52.14 USD,5-17 days,false
+32859893411,IQ,DHL,99.45 USD,17-23 days,true
+32859893411,IR,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,IR,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,IR,EMS,52.14 USD,7-15 days,true
+32859893411,IR,DHL,99.45 USD,7-15 days,true
+32859893411,KP,China Post Registered Air Mail,2.26 USD,20-40 days,true
+32859893411,KP,AliExpress Standard Shipping,5.68 USD,20-40 days,true
+32859893411,KP,EMS,21.08 USD,7-15 days,true
+32859893411,KP,DHL,99.45 USD,7-15 days,true
+32859893411,IR,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,IR,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,IR,EMS,52.14 USD,7-15 days,true
+32859893411,IR,DHL,99.45 USD,7-15 days,true
+32859893411,MT,China Post Registered Air Mail,2.94 USD,16-28 days,true
+32859893411,MT,AliExpress Standard Shipping,6.06 USD,14-23 days,true
+32859893411,MT,EMS,32.80 USD,17-27 days,true
+32859893411,MT,DHL,51.82 USD,9-20 days,true
+32859893411,MR,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,MR,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,MR,DHL,99.45 USD,7-15 days,true
+32859893411,MM,China Post Registered Air Mail,2.26 USD,24-43 days,false
+32859893411,MM,AliExpress Standard Shipping,5.68 USD,21-43 days,false
+32859893411,MM,DHL,99.45 USD,8-15 days,true
+32859893411,MW,China Post Registered Air Mail,2.55 USD,44-60 days,false
+32859893411,MW,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,MW,DHL,99.45 USD,7-15 days,true
+32859893411,MV,China Post Registered Air Mail,2.38 USD,24-39 days,true
+32859893411,MV,AliExpress Standard Shipping,5.36 USD,21-36 days,true
+32859893411,MV,DHL,99.45 USD,10-19 days,true
+32859893411,MU,China Post Registered Air Mail,2.55 USD,27-47 days,true
+32859893411,MU,AliExpress Standard Shipping,6.36 USD,23-40 days,true
+32859893411,MU,DHL,99.45 USD,8-17 days,true
+32859893411,MC,China Post Registered Air Mail,0 USD,23-52 days,true
+32859893411,MC,AliExpress Standard Shipping,6.06 USD,20-40 days,true
+32859893411,MC,DHL,51.82 USD,7-15 days,false
+32859893411,MZ,China Post Registered Air Mail,2.55 USD,34-57 days,false
+32859893411,MZ,AliExpress Standard Shipping,6.36 USD,42-57 days,false
+32859893411,MZ,EMS,52.14 USD,7-15 days,true
+32859893411,MZ,DHL,99.45 USD,13-23 days,true
+32859893411,YT,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,YT,DHL,99.45 USD,7-15 days,true
+32859893411,NR,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,NR,AliExpress Standard Shipping,5.68 USD,20-40 days,true
+32859893411,NR,DHL,99.45 USD,7-15 days,true
+32859893411,MD,China Post Registered Air Mail,2.55 USD,29-55 days,true
+32859893411,MD,AliExpress Standard Shipping,6.36 USD,25-41 days,true
+32859893411,MD,DHL,99.45 USD,10-23 days,true
+32859893411,LS,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,LS,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,LS,DHL,99.45 USD,7-15 days,true
+32859893411,MO,AliExpress Standard Shipping,5.68 USD,20-40 days,true
+32859893411,MO,EMS,15.23 USD,10-25 days,true
+32859893411,MO,DHL,26.11 USD,7-15 days,true
+32859893411,MQ,China Post Registered Air Mail,2.74 USD,23-43 days,true
+32859893411,MQ,AliExpress Standard Shipping,6.36 USD,21-34 days,true
+32859893411,MQ,DHL,99.45 USD,10-21 days,true
+32859893411,NC,China Post Registered Air Mail,2.42 USD,41-60 days,true
+32859893411,NC,AliExpress Standard Shipping,5.68 USD,29-47 days,true
+32859893411,NC,DHL,99.45 USD,17-23 days,true
+32859893411,KW,China Post Registered Air Mail,2.55 USD,31-53 days,false
+32859893411,KW,AliExpress Standard Shipping,5.77 USD,28-47 days,false
+32859893411,KW,EMS,52.14 USD,18-27 days,true
+32859893411,KW,DHL,66.25 USD,10-19 days,true
+32859893411,LV,China Post Registered Air Mail,0 USD,32-48 days,true
+32859893411,LV,AliExpress Standard Shipping,5.63 USD,17-27 days,true
+32859893411,LV,DHL,51.82 USD,10-20 days,true
+32859893411,LV,EMS,52.14 USD,13-26 days,true
+32859893411,MG,China Post Registered Air Mail,2.55 USD,24-44 days,false
+32859893411,MG,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,MG,EMS,52.14 USD,7-15 days,true
+32859893411,MG,DHL,99.45 USD,7-15 days,true
+32859893411,MN,China Post Registered Air Mail,2.26 USD,17-32 days,true
+32859893411,MN,AliExpress Standard Shipping,5.68 USD,25-46 days,true
+32859893411,MN,EMS,22.26 USD,12-20 days,true
+32859893411,MN,DHL,99.45 USD,7-15 days,true
+32859893411,MH,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,MH,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,MH,DHL,99.45 USD,7-15 days,true
+32859893411,MS,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,MS,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,MS,DHL,99.45 USD,7-15 days,true
+32859893411,NP,China Post Registered Air Mail,2.26 USD,23-45 days,false
+32859893411,NP,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,NP,EMS,35.14 USD,7-15 days,true
+32859893411,NP,DHL,99.45 USD,7-15 days,true
+32859893411,LU,China Post Registered Air Mail,2.34 USD,29 days,true
+32859893411,LU,ePacket,5.59 USD,24 days,true
+32859893411,LU,AliExpress Standard Shipping,6.06 USD,26 days,true
+32859893411,LU,EMS,32.80 USD,26 days,true
+32859893411,LU,DHL,51.82 USD,8-20 days,true
+32859893411,LB,China Post Registered Air Mail,2.31 USD,37-59 days,true
+32859893411,LB,AliExpress Standard Shipping,5.99 USD,36-58 days,true
+32859893411,LB,EMS,39.24 USD,5-17 days,false
+32859893411,LB,DHL,99.45 USD,10-23 days,true
+32859893411,MY,China Post Registered Air Mail,0 USD,22-38 days,true
+32859893411,MY,AliExpress Standard Shipping,4.58 USD,18-30 days,true
+32859893411,MY,ePacket,5.12 USD,20-35 days,true
+32859893411,MY,EMS,22.26 USD,13-27 days,true
+32859893411,MY,DHL,39.36 USD,8-16 days,true
+32859893411,NA,China Post Registered Air Mail,2.55 USD,46-60 days,false
+32859893411,NA,AliExpress Standard Shipping,6.36 USD,42-57 days,false
+32859893411,NA,DHL,99.45 USD,23-46 days,true
+32859893411,LI,China Post Registered Air Mail,2.55 USD,16-28 days,true
+32859893411,LI,AliExpress Standard Shipping,6.06 USD,15-23 days,true
+32859893411,LI,DHL,51.82 USD,7-15 days,true
+32859893411,LT,China Post Registered Air Mail,0 USD,34-53 days,true
+32859893411,LT,AliExpress Standard Shipping,5.75 USD,18-29 days,true
+32859893411,LT,DHL,51.82 USD,9-21 days,true
+32859893411,ML,China Post Registered Air Mail,2.55 USD,21-50 days,false
+32859893411,ML,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,ML,EMS,52.14 USD,7-15 days,true
+32859893411,ML,DHL,99.45 USD,7-15 days,true
+32859893411,FM,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,FM,DHL,99.45 USD,7-15 days,true
+32859893411,KG,China Post Registered Air Mail,2.38 USD,35-54 days,false
+32859893411,KG,AliExpress Standard Shipping,6.06 USD,30-48 days,false
+32859893411,KG,DHL,99.45 USD,7-15 days,true
+32859893411,LY,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,LY,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,LY,DHL,66.25 USD,11-18 days,true
+32859893411,MK,China Post Registered Air Mail,2.55 USD,29-54 days,false
+32859893411,MK,AliExpress Standard Shipping,6.06 USD,24-42 days,false
+32859893411,MK,DHL,99.45 USD,14-23 days,true
+32859893411,MA,China Post Registered Air Mail,1.98 USD,31-48 days,false
+32859893411,MA,AliExpress Standard Shipping,5.94 USD,27-39 days,false
+32859893411,MA,EMS,52.14 USD,16-27 days,true
+32859893411,MA,DHL,99.45 USD,8-21 days,true
+32859893411,PH,China Post Registered Air Mail,0 USD,31-55 days,false
+32859893411,PH,AliExpress Standard Shipping,5.08 USD,32-55 days,false
+32859893411,PH,EMS,22.26 USD,18-27 days,true
+32859893411,PH,DHL,39.36 USD,9-19 days,true
+32859893411,PG,China Post Registered Air Mail,2.26 USD,25-42 days,true
+32859893411,PG,AliExpress Standard Shipping,5.68 USD,20-40 days,true
+32859893411,PG,EMS,24.60 USD,7-15 days,true
+32859893411,PG,DHL,99.45 USD,11-18 days,true
+32859893411,PE,China Post Registered Air Mail,2.26 USD,45-60 days,true
+32859893411,PE,AliExpress Standard Shipping,6.08 USD,43-59 days,true
+32859893411,PE,EMS,39.24 USD,18-27 days,true
+32859893411,PE,DHL,99.45 USD,11-23 days,true
+32859893411,PN,China Post Registered Air Mail,2.42 USD,20-40 days,true
+32859893411,PN,AliExpress Standard Shipping,5.80 USD,20-40 days,true
+32859893411,PS,China Post Registered Air Mail,2.55 USD,38-58 days,true
+32859893411,PS,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,RE,China Post Registered Air Mail,2.74 USD,47-60 days,false
+32859893411,RE,AliExpress Standard Shipping,6.36 USD,36-56 days,false
+32859893411,RE,DHL,99.45 USD,10-20 days,true
+32859893411,NE,China Post Registered Air Mail,2.55 USD,19-41 days,false
+32859893411,NE,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,NE,EMS,52.14 USD,7-15 days,true
+32859893411,NE,DHL,99.45 USD,7-15 days,true
+32859893411,NI,China Post Registered Air Mail,2.55 USD,57-60 days,false
+32859893411,NI,AliExpress Standard Shipping,6.36 USD,60 days,false
+32859893411,NI,DHL,99.45 USD,7-15 days,true
+32859893411,PR,China Post Registered Air Mail,2.74 USD,23-41 days,false
+32859893411,PR,AliExpress Standard Shipping,6.36 USD,23-46 days,false
+32859893411,PR,DHL,99.45 USD,9-23 days,true
+32859893411,QA,China Post Registered Air Mail,0 USD,21-44 days,false
+32859893411,QA,AliExpress Standard Shipping,5.77 USD,21-40 days,false
+32859893411,QA,EMS,52.14 USD,15-27 days,true
+32859893411,QA,DHL,66.25 USD,8-15 days,true
+32859893411,PA,China Post Registered Air Mail,2.55 USD,50-60 days,false
+32859893411,PA,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,PA,EMS,39.24 USD,7-15 days,true
+32859893411,PA,DHL,99.45 USD,11-23 days,true
+32859893411,NG,China Post Registered Air Mail,2.48 USD,23-42 days,true
+32859893411,NG,AliExpress Standard Shipping,5.94 USD,20-35 days,true
+32859893411,NG,EMS,52.14 USD,15-27 days,true
+32859893411,NG,DHL,99.45 USD,9-18 days,true
+32859893411,PY,China Post Registered Air Mail,2.55 USD,48-60 days,false
+32859893411,PY,AliExpress Standard Shipping,6.36 USD,32-56 days,false
+32859893411,PY,DHL,99.45 USD,7-15 days,true
+32859893411,MP,China Post Registered Air Mail,2.42 USD,20-40 days,false
+32859893411,MP,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,OM,China Post Registered Air Mail,2.31 USD,36-53 days,false
+32859893411,OM,AliExpress Standard Shipping,5.77 USD,27-46 days,false
+32859893411,OM,EMS,52.14 USD,19-27 days,true
+32859893411,OM,DHL,66.25 USD,9-22 days,true
+32859893411,PK,China Post Registered Air Mail,2.16 USD,23-40 days,false
+32859893411,PK,AliExpress Standard Shipping,5.59 USD,21-39 days,false
+32859893411,PK,EMS,35.14 USD,19-27 days,true
+32859893411,PK,DHL,99.45 USD,9-18 days,true
+32859893411,PW,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,PW,DHL,99.45 USD,7-15 days,true
+32859893411,NU,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,NU,DHL,99.45 USD,7-15 days,true
+32859893411,NF,China Post Registered Air Mail,2.42 USD,20-40 days,false
+32859893411,NF,AliExpress Standard Shipping,5.69 USD,20-40 days,false
+32859893411,RO,China Post Registered Air Mail,2.38 USD,29-51 days,false
+32859893411,RO,AliExpress Standard Shipping,6.04 USD,27-49 days,false
+32859893411,RO,EMS,52.14 USD,20-27 days,true
+32859893411,RO,DHL,99.45 USD,12-22 days,true
+32859893411,SH,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,SH,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,SH,DHL,99.45 USD,4-8 days,false
+32859893411,LC,China Post Registered Air Mail,2.55 USD,31-53 days,false
+32859893411,LC,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,LC,DHL,99.45 USD,7-15 days,true
+32859893411,SI,China Post Registered Air Mail,1.95 USD,20-33 days,true
+32859893411,SI,AliExpress Standard Shipping,5.84 USD,16-25 days,true
+32859893411,SI,DHL,51.82 USD,9-19 days,true
+32859893411,KN,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,KN,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,SN,China Post Registered Air Mail,2.55 USD,25-49 days,false
+32859893411,SN,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,SN,EMS,52.14 USD,7-15 days,true
+32859893411,SN,DHL,99.45 USD,8-17 days,true
+32859893411,SX,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,SX,DHL,99.45 USD,4-8 days,false
+32859893411,SB,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,SB,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,SB,DHL,99.45 USD,7-15 days,true
+32859893411,WS,China Post Registered Air Mail,2.42 USD,20-40 days,false
+32859893411,WS,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,WS,DHL,99.45 USD,7-15 days,true
+32859893411,SC,China Post Registered Air Mail,2.55 USD,47-60 days,false
+32859893411,SC,AliExpress Standard Shipping,6.36 USD,34-58 days,false
+32859893411,SC,DHL,99.45 USD,10-21 days,true
+32859893411,SA,Aliexpress Direct,0 USD,10-20 days,true
+32859893411,SA,China Post Registered Air Mail,0 USD,36 days,true
+32859893411,SA,ePacket,5.53 USD,31 days,true
+32859893411,SA,AliExpress Standard Shipping,5.77 USD,30 days,true
+32859893411,SA,EMS,52.14 USD,27 days,true
+32859893411,SA,DHL,66.25 USD,12-23 days,true
+32859893411,SO,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,SO,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,SO,DHL,99.45 USD,7-15 days,true
+32859893411,ST,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,ST,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,ST,DHL,99.45 USD,7-15 days,true
+32859893411,SM,China Post Registered Air Mail,2.55 USD,37-58 days,false
+32859893411,SM,AliExpress Standard Shipping,6.06 USD,20-40 days,false
+32859893411,SM,DHL,99.45 USD,7-15 days,true
+32859893411,SL,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,SL,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,SL,DHL,99.45 USD,7-15 days,true
+32859893411,RW,China Post Registered Air Mail,2.55 USD,29-53 days,false
+32859893411,RW,AliExpress Standard Shipping,6.36 USD,28-52 days,false
+32859893411,RW,EMS,52.14 USD,7-15 days,true
+32859893411,RW,DHL,99.45 USD,7-15 days,true
+32859893411,PM,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,PM,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,VC,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,VC,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,VC,DHL,99.45 USD,7-15 days,false
+32859893411,SG,AliExpress Standard Shipping,0 USD,14-24 days,true
+32859893411,SG,China Post Registered Air Mail,0 USD,17-33 days,true
+32859893411,SG,ePacket,5.12 USD,20-35 days,true
+32859893411,SG,EMS,22.26 USD,10-24 days,true
+32859893411,SG,DHL,39.36 USD,6-13 days,true
+32859893411,ZA,China Post Registered Air Mail,0 USD,40-59 days,true
+32859893411,ZA,AliExpress Standard Shipping,5.94 USD,37-57 days,true
+32859893411,ZA,EMS,32.80 USD,20-27 days,true
+32859893411,ZA,DHL,99.45 USD,9-22 days,true
+32859893411,SZ,China Post Registered Air Mail,2.55 USD,32-57 days,false
+32859893411,SZ,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,SZ,DHL,99.45 USD,7-15 days,true
+32859893411,SY,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,SY,EMS,52.14 USD,7-15 days,true
+32859893411,SY,DHL,99.45 USD,7-15 days,true
+32859893411,TZ,China Post Registered Air Mail,2.55 USD,23-44 days,false
+32859893411,TZ,AliExpress Standard Shipping,6.36 USD,23-43 days,false
+32859893411,TZ,DHL,99.45 USD,14-23 days,true
+32859893411,LK,China Post Registered Air Mail,2.26 USD,23-45 days,false
+32859893411,LK,AliExpress Standard Shipping,5.68 USD,18-38 days,false
+32859893411,LK,EMS,35.14 USD,15-27 days,true
+32859893411,LK,DHL,99.45 USD,9-17 days,true
+32859893411,SR,China Post Registered Air Mail,2.73 USD,30-55 days,true
+32859893411,SR,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,SR,DHL,99.45 USD,7-15 days,true
+32859893411,TH,AliExpress Standard Shipping,0 USD,13-20 days,true
+32859893411,TH,China Post Registered Air Mail,0 USD,12-22 days,true
+32859893411,TH,ePacket,3.40 USD,20-35 days,true
+32859893411,TH,EMS,22.26 USD,11-22 days,true
+32859893411,TH,DHL,39.36 USD,7-15 days,true
+32859893411,SJ,AliExpress Standard Shipping,6.06 USD,20-40 days,false
+32859893411,TW,AliExpress Standard Shipping,5.08 USD,20-40 days,true
+32859893411,TW,EMS,15.23 USD,13-26 days,true
+32859893411,TW,DHL,36.74 USD,7-15 days,true
+32859893411,TJ,China Post Registered Air Mail,2.38 USD,28-47 days,false
+32859893411,TJ,AliExpress Standard Shipping,6.06 USD,31-48 days,false
+32859893411,TJ,DHL,99.45 USD,7-15 days,true
+32859893411,SD,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,SD,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,SD,DHL,99.45 USD,7-15 days,true
+32859893411,TM,China Post Registered Air Mail,2.55 USD,36-54 days,false
+32859893411,TM,AliExpress Standard Shipping,6.06 USD,38-54 days,false
+32859893411,TG,China Post Registered Air Mail,2.55 USD,20-36 days,true
+32859893411,TG,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,TG,DHL,99.45 USD,7-15 days,true
+32859893411,TO,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,TO,AliExpress Standard Shipping,5.68 USD,20-40 days,true
+32859893411,TO,DHL,99.45 USD,7-15 days,true
+32859893411,UA,AliExpress Standard Shipping,0 USD,23 days,true
+32859893411,UA,ePacket,0 USD,31 days,true
+32859893411,UA,China Post Registered Air Mail,1.86 USD,41 days,true
+32859893411,UA,EMS,39.24 USD,27 days,true
+32859893411,UA,DHL,99.45 USD,10-20 days,true
+32859893411,TT,China Post Registered Air Mail,2.55 USD,33-55 days,false
+32859893411,TT,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,TT,DHL,99.45 USD,10-23 days,true
+32859893411,TN,China Post Registered Air Mail,2.55 USD,25-48 days,false
+32859893411,TN,AliExpress Standard Shipping,6.36 USD,25-43 days,false
+32859893411,TN,EMS,52.14 USD,7-15 days,true
+32859893411,TN,DHL,99.45 USD,15-23 days,true
+32859893411,TC,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,TC,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,TC,DHL,99.45 USD,11-19 days,true
+32859893411,TK,AliExpress Standard Shipping,5.80 USD,20-40 days,true
+32859893411,UG,China Post Registered Air Mail,2.55 USD,26-47 days,false
+32859893411,UG,AliExpress Standard Shipping,6.36 USD,25-36 days,false
+32859893411,UG,EMS,52.14 USD,7-15 days,true
+32859893411,UG,DHL,99.45 USD,12-23 days,true
+32859893411,TV,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,TV,AliExpress Standard Shipping,5.68 USD,20-40 days,true
+32859893411,TV,DHL,99.45 USD,7-15 days,true
+32859893411,AE,Aliexpress Direct,0 USD,20 days,true
+32859893411,AE,China Post Registered Air Mail,2.45 USD,36 days,true
+32859893411,AE,AliExpress Standard Shipping,5.77 USD,20 days,true
+32859893411,AE,EMS,39.24 USD,23 days,true
+32859893411,AE,DHL,66.25 USD,7-15 days,true
+32859893411,VU,China Post Registered Air Mail,2.55 USD,20-40 days,false
+32859893411,VU,AliExpress Standard Shipping,5.68 USD,20-40 days,false
+32859893411,VU,DHL,99.45 USD,7-15 days,true
+32859893411,VE,China Post Registered Air Mail,2.59 USD,41-60 days,false
+32859893411,VE,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,VE,DHL,99.45 USD,13-23 days,true
+32859893411,UY,China Post Registered Air Mail,2.59 USD,33-57 days,false
+32859893411,UY,AliExpress Standard Shipping,6.36 USD,34-57 days,false
+32859893411,UY,DHL,99.45 USD,19-23 days,true
+32859893411,UM,AliExpress Standard Shipping,6.06 USD,20-40 days,false
+32859893411,UZ,China Post Registered Air Mail,2.55 USD,29-48 days,false
+32859893411,UZ,AliExpress Standard Shipping,6.06 USD,31-50 days,false
+32859893411,UZ,EMS,52.14 USD,5-17 days,false
+32859893411,UZ,DHL,99.45 USD,12-23 days,true
+32859893411,VN,China Post Registered Air Mail,1.72 USD,21-39 days,false
+32859893411,VN,ePacket,3.41 USD,20-35 days,false
+32859893411,VN,AliExpress Standard Shipping,4.34 USD,18-36 days,false
+32859893411,VN,EMS,22.26 USD,13-26 days,true
+32859893411,VN,DHL,39.36 USD,8-17 days,true
+32859893411,YE,DHL,99.45 USD,7-15 days,true
+32859893411,VG,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,VG,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,VG,DHL,99.45 USD,7-15 days,true
+32859893411,EH,China Post Registered Air Mail,2.55 USD,20-40 days,true
+32859893411,EH,AliExpress Standard Shipping,6.36 USD,20-40 days,true
+32859893411,ZM,China Post Registered Air Mail,2.55 USD,37-60 days,false
+32859893411,ZM,AliExpress Standard Shipping,6.36 USD,38-60 days,false
+32859893411,ZM,DHL,99.45 USD,7-15 days,true
+32859893411,WF,China Post Registered Air Mail,2.74 USD,20-40 days,false
+32859893411,WF,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,VI,China Post Registered Air Mail,2.74 USD,29-53 days,false
+32859893411,VI,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,VI,DHL,99.45 USD,7-15 days,true
+32859893411,ZW,China Post Registered Air Mail,2.55 USD,34-56 days,false
+32859893411,ZW,AliExpress Standard Shipping,6.36 USD,40-57 days,false
+32859893411,ZW,DHL,99.45 USD,14-23 days,true
+32859893411,LR,China Post Registered Air Mail,2.55 USD,4-48 days,false
+32859893411,LR,AliExpress Standard Shipping,6.36 USD,20-40 days,false
+32859893411,LR,DHL,99.45 USD,7-15 days,true
+32607072744,AR,AliExpress Standard Shipping,4.67 USD,54-60 days,true
+32607072744,AR,UPS Expedited,80.67 USD,23 days,true
+32607072744,AT,China Post Registered Air Mail,3.72 USD,31-44 days,true
+32607072744,AT,Singapore Post,4.45 USD,29-49 days,true
+32607072744,AT,AliExpress Standard Shipping,4.93 USD,25-36 days,true
+32607072744,AT,PostNL,6.53 USD,28-41 days,true
+32607072744,AT,DHL,17.77 USD,10 days,true
+32607072744,AT,UPS Expedited,80.67 USD,21-23 days,true
+32607072744,AU,Singapore Post,4.54 USD,34-59 days,false
+32607072744,AU,PostNL,4.84 USD,37-60 days,false
+32607072744,AU,AliExpress Standard Shipping,5.66 USD,28-49 days,false
+32607072744,AU,DHL,22.57 USD,10 days,true
+32607072744,AU,UPS Expedited,65.03 USD,20-23 days,true
+32607072744,BE,China Post Registered Air Mail,3.72 USD,30 days,true
+32607072744,BE,Singapore Post,4.45 USD,23 days,true
+32607072744,BE,AliExpress Standard Shipping,4.76 USD,21 days,true
+32607072744,BE,PostNL,5.95 USD,25 days,true
+32607072744,BE,DHL,17.77 USD,10 days,true
+32607072744,BE,UPS Expedited,80.67 USD,19-23 days,true
+32607072744,BR,AliExpress Standard Shipping,5.66 USD,47 days,true
+32607072744,BR,DHL,35.52 USD,10 days,true
+32607072744,BR,UPS Expedited,80.67 USD,23 days,true
+32607072744,CA,PostNL,4.92 USD,41-60 days,false
+32607072744,CA,AliExpress Standard Shipping,6.44 USD,23-38 days,true
+32607072744,CA,DHL,25.89 USD,10 days,true
+32607072744,CA,UPS Expedited,64.15 USD,21-23 days,true
+32607072744,CH,China Post Registered Air Mail,3.65 USD,26-35 days,true
+32607072744,CH,Singapore Post,4.44 USD,25-41 days,true
+32607072744,CH,PostNL,4.48 USD,23-32 days,true
+32607072744,CH,AliExpress Standard Shipping,4.73 USD,23-30 days,true
+32607072744,CH,DHL,17.77 USD,10 days,true
+32607072744,CH,UPS Expedited,80.67 USD,18-23 days,true
+32607072744,CL,AliExpress Standard Shipping,5.37 USD,28-39 days,true
+32607072744,CL,UPS Expedited,80.67 USD,23 days,true
+32607072744,CZ,China Post Registered Air Mail,3.07 USD,35 days,true
+32607072744,CZ,PostNL,4.33 USD,30 days,true
+32607072744,CZ,Singapore Post,4.58 USD,28 days,true
+32607072744,CZ,AliExpress Standard Shipping,5.16 USD,27 days,true
+32607072744,CZ,DHL,17.77 USD,10 days,true
+32607072744,CZ,UPS Expedited,80.67 USD,21-23 days,true
+32607072744,DE,China Post Registered Air Mail,3.09 USD,32 days,false
+32607072744,DE,AliExpress Standard Shipping,4.75 USD,23 days,false
+32607072744,DE,PostNL,5.37 USD,33 days,false
+32607072744,DE,DHL,17.77 USD,10 days,true
+32607072744,DE,UPS Expedited,80.67 USD,20-23 days,true
+32607072744,DK,China Post Registered Air Mail,3.75 USD,31-49 days,true
+32607072744,DK,Singapore Post,3.98 USD,29-50 days,true
+32607072744,DK,PostNL,4.40 USD,24-35 days,true
+32607072744,DK,AliExpress Standard Shipping,4.49 USD,22-31 days,true
+32607072744,DK,DHL,17.77 USD,10 days,true
+32607072744,DK,UPS Expedited,80.67 USD,19-23 days,true
+32607072744,ES,AliExpress Standard Shipping,4.78 USD,18 days,true
+32607072744,ES,Seller's Shipping Method,12.16 USD,37-57 days,false
+32607072744,ES,DHL,17.77 USD,10 days,true
+32607072744,ES,UPS Expedited,80.67 USD,21-23 days,true
+32607072744,FI,China Post Registered Air Mail,3.62 USD,26-37 days,true
+32607072744,FI,Singapore Post,4.24 USD,27-46 days,true
+32607072744,FI,AliExpress Standard Shipping,4.76 USD,23-32 days,true
+32607072744,FI,PostNL,4.92 USD,30-40 days,true
+32607072744,FI,DHL,17.77 USD,10 days,true
+32607072744,FI,UPS Expedited,80.67 USD,22-23 days,true
+32607072744,FR,AliExpress Standard Shipping,4.79 USD,18 days,true
+32607072744,FR,DHL,17.77 USD,10 days,true
+32607072744,FR,UPS Expedited,80.67 USD,21-23 days,true
+32607072744,IE,Singapore Post,3.98 USD,32-49 days,true
+32607072744,IE,China Post Registered Air Mail,4.01 USD,32-43 days,true
+32607072744,IE,AliExpress Standard Shipping,4.49 USD,25-33 days,true
+32607072744,IE,PostNL,4.92 USD,29-42 days,true
+32607072744,IE,DHL,17.77 USD,10 days,true
+32607072744,IE,UPS Expedited,80.67 USD,20-23 days,true
+32607072744,IL,China Post Registered Air Mail,3.02 USD,33-49 days,true
+32607072744,IL,Seller's Shipping Method,4.53 USD,37-58 days,false
+32607072744,IL,Singapore Post,4.74 USD,36-57 days,true
+32607072744,IL,PostNL,4.92 USD,33-47 days,true
+32607072744,IL,AliExpress Standard Shipping,5.04 USD,32-48 days,true
+32607072744,IL,DHL,42.59 USD,10 days,true
+32607072744,IL,UPS Expedited,80.67 USD,19-23 days,true
+32607072744,IN,China Post Registered Air Mail,3.54 USD,35-48 days,true
+32607072744,IN,Singapore Post,4.13 USD,29-48 days,true
+32607072744,IN,PostNL,4.46 USD,31-45 days,true
+32607072744,IN,AliExpress Standard Shipping,4.63 USD,26-36 days,true
+32607072744,IN,DHL,33.32 USD,10 days,true
+32607072744,IN,UPS Expedited,80.67 USD,19-23 days,true
+32607072744,IT,China Post Registered Air Mail,3.74 USD,39 days,true
+32607072744,IT,PostNL,4.92 USD,39 days,true
+32607072744,IT,AliExpress Standard Shipping,5.95 USD,36 days,true
+32607072744,IT,DHL,17.77 USD,10 days,true
+32607072744,IT,UPS Expedited,80.67 USD,19-23 days,true
+32607072744,MX,China Post Registered Air Mail,3.77 USD,59 days,true
+32607072744,MX,Singapore Post,4.11 USD,56 days,true
+32607072744,MX,AliExpress Standard Shipping,5.56 USD,46 days,true
+32607072744,MX,DHL,25.89 USD,10 days,true
+32607072744,MX,UPS Expedited,64.15 USD,21-23 days,true
+32607072744,NL,AliExpress Standard Shipping,4.96 USD,15 days,true
+32607072744,NL,DHL,17.77 USD,10 days,true
+32607072744,NL,UPS Expedited,80.67 USD,19-23 days,true
+32607072744,NO,China Post Registered Air Mail,3.32 USD,27-39 days,true
+32607072744,NO,Singapore Post,3.93 USD,26-42 days,true
+32607072744,NO,AliExpress Standard Shipping,4.43 USD,25-34 days,true
+32607072744,NO,PostNL,6.73 USD,28-37 days,true
+32607072744,NO,DHL,17.77 USD,10 days,true
+32607072744,NO,UPS Expedited,80.67 USD,21-23 days,true
+32607072744,NZ,Singapore Post,4.33 USD,25-41 days,true
+32607072744,NZ,AliExpress Standard Shipping,4.74 USD,21-28 days,true
+32607072744,NZ,PostNL,4.92 USD,31-41 days,true
+32607072744,NZ,DHL,22.57 USD,10 days,true
+32607072744,NZ,UPS Expedited,65.03 USD,21-23 days,true
+32607072744,PL,AliExpress Standard Shipping,4.33 USD,27 days,true
+32607072744,PL,DHL,17.77 USD,10 days,true
+32607072744,PL,UPS Expedited,80.67 USD,19-23 days,true
+32607072744,PT,China Post Registered Air Mail,3.35 USD,29-46 days,true
+32607072744,PT,Singapore Post,4.22 USD,33-60 days,true
+32607072744,PT,AliExpress Standard Shipping,4.56 USD,28-43 days,true
+32607072744,PT,PostNL,4.92 USD,33-60 days,true
+32607072744,PT,DHL,17.77 USD,10 days,true
+32607072744,PT,UPS Expedited,80.67 USD,23-30 days,true
+32607072744,RU,China Post Registered Air Mail,2.42 USD,38 days,true
+32607072744,RU,AliExpress Standard Shipping,3.84 USD,21 days,true
+32607072744,RU,Singapore Post,3.93 USD,31 days,true
+32607072744,RU,Seller's Shipping Method,6.86 USD,43-60 days,false
+32607072744,RU,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,SE,China Post Registered Air Mail,3.66 USD,30-41 days,true
+32607072744,SE,Singapore Post,4.45 USD,25-44 days,true
+32607072744,SE,AliExpress Standard Shipping,4.81 USD,22-31 days,true
+32607072744,SE,PostNL,6.32 USD,25-34 days,true
+32607072744,SE,DHL,17.77 USD,10 days,true
+32607072744,SE,UPS Expedited,80.67 USD,21-23 days,true
+32607072744,SK,China Post Registered Air Mail,3.05 USD,28-39 days,true
+32607072744,SK,PostNL,4.28 USD,29-37 days,true
+32607072744,SK,Singapore Post,4.41 USD,30-49 days,true
+32607072744,SK,AliExpress Standard Shipping,4.92 USD,28-35 days,true
+32607072744,SK,DHL,17.77 USD,10 days,true
+32607072744,SK,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,TR,China Post Registered Air Mail,3.17 USD,28 days,true
+32607072744,TR,Singapore Post,3.98 USD,23 days,true
+32607072744,TR,PostNL,4.36 USD,29 days,true
+32607072744,TR,AliExpress Standard Shipping,4.82 USD,25 days,true
+32607072744,TR,DHL,42.59 USD,10 days,true
+32607072744,TR,UPS Expedited,80.67 USD,18-23 days,true
+32607072744,US,AliExpress Standard Shipping,4.79 USD,23 days,true
+32607072744,US,DHL,20.14 USD,10 days,true
+32607072744,US,UPS Expedited,64.15 USD,19-23 days,true
+32607072744,US,Seller's Shipping Method,151.58 USD,28-46 days,false
+32607072744,AG,China Post Registered Air Mail,4.00 USD,28-48 days,false
+32607072744,AG,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,AG,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,AO,AliExpress Standard Shipping,5.18 USD,42-60 days,false
+32607072744,AO,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,AW,China Post Registered Air Mail,4.13 USD,48-60 days,false
+32607072744,AW,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,AW,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,DZ,AliExpress Standard Shipping,5.18 USD,45-60 days,false
+32607072744,DZ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,AI,China Post Registered Air Mail,4.13 USD,28-48 days,false
+32607072744,AI,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,AI,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,AQ,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,AS,China Post Registered Air Mail,3.60 USD,28-48 days,false
+32607072744,AS,Singapore Post,4.11 USD,28-48 days,false
+32607072744,AS,AliExpress Standard Shipping,4.71 USD,28-48 days,false
+32607072744,AS,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,AF,Singapore Post,4.65 USD,28-48 days,false
+32607072744,AF,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,AF,DHL,42.59 USD,10 days,true
+32607072744,AF,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,AL,Singapore Post,4.47 USD,37-56 days,true
+32607072744,AL,AliExpress Standard Shipping,4.98 USD,34-51 days,true
+32607072744,AL,China Post Registered Air Mail,5.01 USD,29-44 days,true
+32607072744,AL,DHL,63.94 USD,10 days,true
+32607072744,AL,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,AD,China Post Registered Air Mail,4.00 USD,31-48 days,true
+32607072744,AD,Singapore Post,4.47 USD,31-57 days,true
+32607072744,AD,AliExpress Standard Shipping,4.98 USD,29-42 days,true
+32607072744,AD,DHL,29.61 USD,10 days,true
+32607072744,AD,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,AM,Singapore Post,4.47 USD,56-60 days,false
+32607072744,AM,AliExpress Standard Shipping,4.98 USD,48-60 days,false
+32607072744,AM,Seller's Shipping Method,11.04 USD,50-60 days,false
+32607072744,AM,DHL,63.94 USD,10 days,true
+32607072744,AM,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BM,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,BM,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BG,Singapore Post,4.20 USD,30-60 days,true
+32607072744,BG,AliExpress Standard Shipping,4.69 USD,22-36 days,true
+32607072744,BG,DHL,17.77 USD,10 days,true
+32607072744,BG,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BQ,AliExpress Standard Shipping,4.98 USD,28-48 days,true
+32607072744,BI,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,BI,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,TD,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,TD,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BW,AliExpress Standard Shipping,5.18 USD,54-60 days,false
+32607072744,BW,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BS,China Post Registered Air Mail,4.13 USD,47-60 days,false
+32607072744,BS,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,BS,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BT,China Post Registered Air Mail,4.00 USD,26-36 days,true
+32607072744,BT,Singapore Post,4.23 USD,29-52 days,true
+32607072744,BT,AliExpress Standard Shipping,4.74 USD,27-34 days,true
+32607072744,BT,DHL,49.73 USD,10 days,true
+32607072744,BT,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,KH,China Post Registered Air Mail,3.25 USD,28-42 days,true
+32607072744,KH,Singapore Post,3.74 USD,25-44 days,true
+32607072744,KH,AliExpress Standard Shipping,4.23 USD,24-36 days,true
+32607072744,KH,DHL,14.62 USD,10 days,true
+32607072744,KH,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,BZ,China Post Registered Air Mail,4.00 USD,42-60 days,false
+32607072744,BZ,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,BZ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BF,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,BF,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BA,China Post Registered Air Mail,3.99 USD,31-51 days,false
+32607072744,BA,AliExpress Standard Shipping,4.98 USD,39-60 days,false
+32607072744,BA,DHL,63.94 USD,10 days,true
+32607072744,BA,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BN,China Post Registered Air Mail,2.98 USD,37-52 days,false
+32607072744,BN,Singapore Post,3.73 USD,35-52 days,false
+32607072744,BN,AliExpress Standard Shipping,4.22 USD,33-43 days,false
+32607072744,BN,DHL,14.62 USD,10 days,true
+32607072744,BN,UPS Expedited,53.31 USD,15-23 days,true
+32607072744,BY,China Post Registered Air Mail,3.13 USD,31-49 days,true
+32607072744,BY,Singapore Post,4.13 USD,36-60 days,true
+32607072744,BY,AliExpress Standard Shipping,5.41 USD,31-46 days,true
+32607072744,BY,Seller's Shipping Method,11.04 USD,37-57 days,false
+32607072744,BY,DHL,63.94 USD,10 days,true
+32607072744,BY,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,AZ,Singapore Post,4.52 USD,32-52 days,false
+32607072744,AZ,AliExpress Standard Shipping,5.02 USD,28-44 days,false
+32607072744,AZ,DHL,63.94 USD,10 days,true
+32607072744,AZ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BD,China Post Registered Air Mail,4.00 USD,28-46 days,false
+32607072744,BD,Singapore Post,4.23 USD,33-50 days,false
+32607072744,BD,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,BD,DHL,49.73 USD,10 days,true
+32607072744,BD,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,BB,China Post Registered Air Mail,4.08 USD,41-60 days,true
+32607072744,BB,AliExpress Standard Shipping,5.18 USD,49-60 days,true
+32607072744,BB,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BV,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,IO,AliExpress Standard Shipping,4.98 USD,28-48 days,true
+32607072744,CV,AliExpress Standard Shipping,5.18 USD,35-49 days,false
+32607072744,CV,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,CF,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,CF,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,CM,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,CM,DHL,63.94 USD,10 days,true
+32607072744,CM,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,KY,China Post Registered Air Mail,4.13 USD,43-60 days,false
+32607072744,KY,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,KY,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BJ,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,BJ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BO,AliExpress Standard Shipping,5.18 USD,44-60 days,false
+32607072744,BO,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,BH,China Post Registered Air Mail,4.09 USD,32-48 days,false
+32607072744,BH,Singapore Post,4.15 USD,31-50 days,false
+32607072744,BH,AliExpress Standard Shipping,4.65 USD,28-45 days,false
+32607072744,BH,DHL,42.59 USD,10 days,true
+32607072744,BH,UPS Expedited,80.67 USD,21-23 days,true
+32607072744,CX,Singapore Post,4.11 USD,28-48 days,true
+32607072744,CX,AliExpress Standard Shipping,4.61 USD,28-48 days,true
+32607072744,CK,Singapore Post,4.23 USD,28-48 days,false
+32607072744,CK,AliExpress Standard Shipping,4.81 USD,28-48 days,false
+32607072744,CK,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,GF,China Post Registered Air Mail,4.00 USD,36-57 days,true
+32607072744,GF,AliExpress Standard Shipping,5.18 USD,33-50 days,true
+32607072744,GF,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,DJ,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,DJ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,CI,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,CI,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,CU,China Post Registered Air Mail,4.00 USD,28-48 days,true
+32607072744,CU,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,CY,China Post Registered Air Mail,4.03 USD,32-51 days,true
+32607072744,CY,Singapore Post,4.47 USD,32-55 days,true
+32607072744,CY,AliExpress Standard Shipping,4.98 USD,28-44 days,true
+32607072744,CY,DHL,17.77 USD,10 days,true
+32607072744,CY,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,CR,China Post Registered Air Mail,4.00 USD,49-60 days,false
+32607072744,CR,AliExpress Standard Shipping,5.18 USD,53-60 days,false
+32607072744,CR,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,CW,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,EC,China Post Registered Air Mail,4.00 USD,55-60 days,false
+32607072744,EC,AliExpress Standard Shipping,5.18 USD,57-60 days,false
+32607072744,EC,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,FK,China Post Registered Air Mail,4.13 USD,28-48 days,false
+32607072744,FK,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,CC,China Post Registered Air Mail,3.60 USD,28-48 days,true
+32607072744,CC,Singapore Post,4.11 USD,28-48 days,true
+32607072744,CC,AliExpress Standard Shipping,4.61 USD,28-48 days,true
+32607072744,EE,China Post Registered Air Mail,3.39 USD,34-49 days,true
+32607072744,EE,Singapore Post,4.43 USD,28-50 days,true
+32607072744,EE,AliExpress Standard Shipping,4.77 USD,23-31 days,true
+32607072744,EE,PostNL,5.13 USD,26-35 days,true
+32607072744,EE,DHL,17.77 USD,10 days,true
+32607072744,EE,UPS Expedited,138.96 USD,23 days,true
+32607072744,FO,China Post Registered Air Mail,3.95 USD,35-60 days,false
+32607072744,FO,Singapore Post,4.47 USD,33-60 days,false
+32607072744,FO,AliExpress Standard Shipping,4.98 USD,29-50 days,false
+32607072744,FO,PostNL,7.87 USD,32-51 days,false
+32607072744,FO,DHL,63.94 USD,10 days,true
+32607072744,FO,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,CO,China Post Registered Air Mail,4.00 USD,38-51 days,true
+32607072744,CO,AliExpress Standard Shipping,5.18 USD,31-43 days,true
+32607072744,CO,UPS Expedited,80.67 USD,22-23 days,true
+32607072744,DO,China Post Registered Air Mail,4.13 USD,57-60 days,false
+32607072744,DO,AliExpress Standard Shipping,5.18 USD,51-60 days,false
+32607072744,DO,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,FJ,Singapore Post,4.23 USD,33-49 days,true
+32607072744,FJ,AliExpress Standard Shipping,4.74 USD,31-53 days,true
+32607072744,FJ,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,SV,China Post Registered Air Mail,4.00 USD,57-60 days,false
+32607072744,SV,AliExpress Standard Shipping,5.18 USD,43-60 days,false
+32607072744,SV,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,GQ,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,GQ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,HR,China Post Registered Air Mail,3.49 USD,24-36 days,true
+32607072744,HR,Singapore Post,4.63 USD,28-48 days,true
+32607072744,HR,AliExpress Standard Shipping,5.17 USD,22-30 days,true
+32607072744,HR,DHL,33.32 USD,10 days,true
+32607072744,HR,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,DM,China Post Registered Air Mail,4.13 USD,28-48 days,false
+32607072744,DM,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,DM,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,KM,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,KM,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,ET,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,ET,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,CG,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,CG,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,EG,PostNL,4.46 USD,51-60 days,false
+32607072744,EG,AliExpress Standard Shipping,5.18 USD,44-60 days,false
+32607072744,EG,DHL,42.59 USD,10 days,true
+32607072744,EG,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,ER,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,ER,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,GY,China Post Registered Air Mail,4.00 USD,28-48 days,false
+32607072744,GY,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,GY,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,GL,China Post Registered Air Mail,3.95 USD,36-60 days,false
+32607072744,GL,AliExpress Standard Shipping,4.98 USD,28-48 days,false
+32607072744,GL,PostNL,9.46 USD,28-48 days,false
+32607072744,GL,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,GD,China Post Registered Air Mail,4.00 USD,45-60 days,false
+32607072744,GD,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,GD,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,GU,Singapore Post,4.23 USD,28-48 days,false
+32607072744,GU,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,GU,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,ID,Singapore Post,2.80 USD,32-50 days,true
+32607072744,ID,AliExpress Standard Shipping,3.29 USD,28-43 days,true
+32607072744,ID,DHL,21.37 USD,10 days,true
+32607072744,ID,UPS Expedited,53.31 USD,15-23 days,true
+32607072744,GM,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,GM,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,HT,China Post Registered Air Mail,4.00 USD,28-48 days,false
+32607072744,HT,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,HT,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,HM,Singapore Post,4.11 USD,15-60 days,false
+32607072744,HM,AliExpress Standard Shipping,4.61 USD,28-48 days,true
+32607072744,GW,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,GW,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,IS,China Post Registered Air Mail,4.13 USD,30-46 days,true
+32607072744,IS,Singapore Post,4.47 USD,35-53 days,true
+32607072744,IS,PostNL,4.92 USD,31-44 days,true
+32607072744,IS,AliExpress Standard Shipping,4.98 USD,33-48 days,true
+32607072744,IS,DHL,33.32 USD,10 days,true
+32607072744,IS,UPS Expedited,80.67 USD,23-36 days,true
+32607072744,GI,China Post Registered Air Mail,3.95 USD,36-59 days,true
+32607072744,GI,Singapore Post,4.47 USD,28-48 days,true
+32607072744,GI,AliExpress Standard Shipping,4.98 USD,28-48 days,true
+32607072744,GI,DHL,29.61 USD,10 days,true
+32607072744,GI,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,GN,Singapore Post,4.65 USD,28-48 days,false
+32607072744,GN,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,GN,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,GE,China Post Registered Air Mail,4.00 USD,40-60 days,true
+32607072744,GE,Singapore Post,4.43 USD,40-59 days,true
+32607072744,GE,AliExpress Standard Shipping,4.77 USD,32-47 days,true
+32607072744,GE,DHL,63.94 USD,10 days,true
+32607072744,GE,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,GR,China Post Registered Air Mail,4.29 USD,30-46 days,true
+32607072744,GR,PostNL,4.84 USD,32-43 days,true
+32607072744,GR,Singapore Post,4.87 USD,31-50 days,true
+32607072744,GR,AliExpress Standard Shipping,5.35 USD,28-42 days,true
+32607072744,GR,DHL,17.77 USD,10 days,true
+32607072744,GR,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,GH,AliExpress Standard Shipping,5.18 USD,40-58 days,false
+32607072744,GH,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,VA,China Post Registered Air Mail,4.00 USD,28-48 days,false
+32607072744,VA,Singapore Post,4.47 USD,28-48 days,false
+32607072744,VA,AliExpress Standard Shipping,4.98 USD,28-48 days,false
+32607072744,VA,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,HK,AliExpress Standard Shipping,4.23 USD,23-33 days,true
+32607072744,HK,Singapore Post,4.65 USD,25-45 days,true
+32607072744,HK,DHL,16.78 USD,10 days,false
+32607072744,HK,UPS Expedited,37.14 USD,15-23 days,true
+32607072744,GA,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,GA,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,TF,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,HU,China Post Registered Air Mail,3.12 USD,28-39 days,true
+32607072744,HU,PostNL,4.38 USD,27-38 days,true
+32607072744,HU,Singapore Post,4.40 USD,30-53 days,true
+32607072744,HU,AliExpress Standard Shipping,4.91 USD,27-35 days,true
+32607072744,HU,DHL,17.77 USD,10 days,true
+32607072744,HU,UPS Expedited,80.67 USD,21-23 days,true
+32607072744,PF,Singapore Post,4.23 USD,38-60 days,false
+32607072744,PF,AliExpress Standard Shipping,4.74 USD,37-55 days,false
+32607072744,PF,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,GP,China Post Registered Air Mail,4.13 USD,33-52 days,true
+32607072744,GP,AliExpress Standard Shipping,5.18 USD,31-45 days,true
+32607072744,GP,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,HN,China Post Registered Air Mail,4.00 USD,54-60 days,false
+32607072744,HN,AliExpress Standard Shipping,5.18 USD,52-60 days,false
+32607072744,HN,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,GT,China Post Registered Air Mail,4.00 USD,60-68 days,false
+32607072744,GT,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,KI,Singapore Post,4.23 USD,28-48 days,false
+32607072744,KI,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,KI,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,KP,China Post Registered Air Mail,3.65 USD,28-48 days,true
+32607072744,KP,Singapore Post,4.23 USD,28-48 days,true
+32607072744,KP,AliExpress Standard Shipping,4.74 USD,28-48 days,true
+32607072744,KP,DHL,63.94 USD,10 days,true
+32607072744,IQ,Singapore Post,4.65 USD,48-60 days,false
+32607072744,IQ,AliExpress Standard Shipping,5.18 USD,45-60 days,false
+32607072744,IQ,DHL,63.94 USD,10 days,true
+32607072744,IQ,UPS Expedited,80.67 USD,23 days,true
+32607072744,IR,China Post Registered Air Mail,4.00 USD,28-48 days,true
+32607072744,IR,Singapore Post,4.65 USD,28-48 days,true
+32607072744,IR,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,IR,Seller's Shipping Method,20.00 USD,38-58 days,false
+32607072744,IR,DHL,63.94 USD,10 days,true
+32607072744,KP,China Post Registered Air Mail,3.65 USD,28-48 days,true
+32607072744,KP,Singapore Post,4.23 USD,28-48 days,true
+32607072744,KP,AliExpress Standard Shipping,4.74 USD,28-48 days,true
+32607072744,KP,DHL,63.94 USD,10 days,true
+32607072744,IR,China Post Registered Air Mail,4.00 USD,28-48 days,true
+32607072744,IR,Singapore Post,4.65 USD,28-48 days,true
+32607072744,IR,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,IR,Seller's Shipping Method,20.00 USD,38-58 days,false
+32607072744,IR,DHL,63.94 USD,10 days,true
+32607072744,MT,Singapore Post,4.47 USD,27-51 days,true
+32607072744,MT,China Post Registered Air Mail,4.84 USD,24-36 days,true
+32607072744,MT,AliExpress Standard Shipping,4.98 USD,22-31 days,true
+32607072744,MT,DHL,17.77 USD,10 days,true
+32607072744,MT,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,MR,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,MR,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,MM,China Post Registered Air Mail,3.65 USD,32-51 days,false
+32607072744,MM,Singapore Post,4.23 USD,31-47 days,false
+32607072744,MM,AliExpress Standard Shipping,4.74 USD,29-51 days,false
+32607072744,MM,DHL,49.73 USD,10 days,true
+32607072744,MW,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,MW,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,MV,China Post Registered Air Mail,3.80 USD,32-47 days,true
+32607072744,MV,Singapore Post,4.03 USD,31-48 days,true
+32607072744,MV,AliExpress Standard Shipping,4.53 USD,29-44 days,true
+32607072744,MV,DHL,49.73 USD,10 days,true
+32607072744,MV,UPS Expedited,65.03 USD,19-23 days,true
+32607072744,MU,AliExpress Standard Shipping,5.18 USD,31-48 days,true
+32607072744,MU,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,MC,China Post Registered Air Mail,4.00 USD,31-60 days,true
+32607072744,MC,Singapore Post,4.47 USD,28-48 days,true
+32607072744,MC,AliExpress Standard Shipping,4.98 USD,28-48 days,true
+32607072744,MC,DHL,33.32 USD,10 days,false
+32607072744,MC,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,MZ,AliExpress Standard Shipping,5.18 USD,50-60 days,false
+32607072744,MZ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,YT,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,YT,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,NR,Singapore Post,4.23 USD,28-48 days,true
+32607072744,NR,AliExpress Standard Shipping,4.74 USD,28-48 days,true
+32607072744,MD,China Post Registered Air Mail,4.00 USD,37-60 days,true
+32607072744,MD,Singapore Post,4.65 USD,38-60 days,true
+32607072744,MD,AliExpress Standard Shipping,5.18 USD,33-49 days,true
+32607072744,MD,DHL,63.94 USD,10 days,true
+32607072744,MD,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,LS,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,LS,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,MO,Singapore Post,4.65 USD,28-48 days,true
+32607072744,MO,AliExpress Standard Shipping,4.74 USD,28-48 days,true
+32607072744,MO,DHL,16.78 USD,10 days,true
+32607072744,MO,UPS Expedited,37.14 USD,15-23 days,true
+32607072744,MQ,China Post Registered Air Mail,4.13 USD,31-51 days,true
+32607072744,MQ,AliExpress Standard Shipping,5.18 USD,29-42 days,true
+32607072744,MQ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,NC,Singapore Post,4.23 USD,37-57 days,true
+32607072744,NC,AliExpress Standard Shipping,4.74 USD,37-55 days,true
+32607072744,NC,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,KW,China Post Registered Air Mail,4.00 USD,39-60 days,false
+32607072744,KW,Singapore Post,4.15 USD,39-60 days,false
+32607072744,KW,PostNL,4.46 USD,42-58 days,false
+32607072744,KW,AliExpress Standard Shipping,4.65 USD,36-55 days,false
+32607072744,KW,DHL,42.59 USD,10 days,true
+32607072744,KW,UPS Expedited,80.67 USD,23-34 days,true
+32607072744,LV,China Post Registered Air Mail,3.29 USD,40-56 days,true
+32607072744,LV,PostNL,4.28 USD,26-35 days,true
+32607072744,LV,Singapore Post,4.31 USD,42-59 days,true
+32607072744,LV,AliExpress Standard Shipping,4.64 USD,25-35 days,true
+32607072744,LV,DHL,17.77 USD,10 days,true
+32607072744,LV,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,MG,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,MG,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,MN,China Post Registered Air Mail,3.65 USD,25-40 days,true
+32607072744,MN,Singapore Post,4.23 USD,40-60 days,true
+32607072744,MN,AliExpress Standard Shipping,4.74 USD,33-54 days,true
+32607072744,MN,UPS Expedited,53.31 USD,15-23 days,true
+32607072744,MN,DHL,63.94 USD,10 days,true
+32607072744,MH,Singapore Post,4.23 USD,28-48 days,false
+32607072744,MH,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,MH,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,MS,China Post Registered Air Mail,4.13 USD,28-48 days,false
+32607072744,MS,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,MS,DHL,63.94 USD,10 days,true
+32607072744,MS,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,NP,China Post Registered Air Mail,3.65 USD,31-53 days,false
+32607072744,NP,Singapore Post,4.23 USD,28-48 days,false
+32607072744,NP,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,NP,DHL,49.73 USD,10 days,true
+32607072744,NP,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,LU,China Post Registered Air Mail,4.04 USD,29 days,true
+32607072744,LU,Singapore Post,4.47 USD,23 days,true
+32607072744,LU,AliExpress Standard Shipping,4.98 USD,25 days,true
+32607072744,LU,PostNL,5.79 USD,26 days,true
+32607072744,LU,DHL,17.77 USD,10 days,true
+32607072744,LU,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,LB,China Post Registered Air Mail,3.73 USD,45-60 days,true
+32607072744,LB,Singapore Post,4.34 USD,50-60 days,true
+32607072744,LB,AliExpress Standard Shipping,4.94 USD,44-60 days,true
+32607072744,LB,DHL,63.94 USD,10 days,true
+32607072744,LB,UPS Expedited,80.67 USD,20-23 days,true
+32607072744,MY,China Post Registered Air Mail,3.02 USD,30-46 days,true
+32607072744,MY,Singapore Post,3.52 USD,30-53 days,true
+32607072744,MY,AliExpress Standard Shipping,4.05 USD,26-38 days,true
+32607072744,MY,DHL,14.62 USD,10 days,true
+32607072744,MY,UPS Expedited,53.31 USD,18-23 days,true
+32607072744,NA,AliExpress Standard Shipping,5.18 USD,50-60 days,false
+32607072744,NA,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,LI,China Post Registered Air Mail,4.00 USD,24-36 days,true
+32607072744,LI,Singapore Post,4.47 USD,23-36 days,true
+32607072744,LI,AliExpress Standard Shipping,4.98 USD,23-31 days,true
+32607072744,LI,DHL,33.32 USD,10 days,true
+32607072744,LI,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,LT,China Post Registered Air Mail,4.00 USD,42-60 days,true
+32607072744,LT,PostNL,4.28 USD,28-38 days,true
+32607072744,LT,Singapore Post,4.38 USD,34-60 days,true
+32607072744,LT,AliExpress Standard Shipping,4.72 USD,26-37 days,true
+32607072744,LT,DHL,17.77 USD,10 days,true
+32607072744,LT,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,ML,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,ML,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,FM,Singapore Post,4.23 USD,28-48 days,false
+32607072744,FM,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,FM,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,KG,China Post Registered Air Mail,3.80 USD,43-60 days,false
+32607072744,KG,Singapore Post,4.47 USD,44-60 days,false
+32607072744,KG,AliExpress Standard Shipping,4.98 USD,38-56 days,false
+32607072744,KG,Seller's Shipping Method,8.42 USD,40-59 days,false
+32607072744,KG,DHL,63.94 USD,10 days,true
+32607072744,KG,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,LY,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,LY,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,MK,China Post Registered Air Mail,4.00 USD,37-60 days,false
+32607072744,MK,Singapore Post,4.47 USD,36-58 days,false
+32607072744,MK,AliExpress Standard Shipping,4.98 USD,32-50 days,false
+32607072744,MK,DHL,63.94 USD,10 days,true
+32607072744,MK,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,MA,AliExpress Standard Shipping,4.76 USD,35-47 days,false
+32607072744,MA,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,PH,China Post Registered Air Mail,3.25 USD,39-60 days,false
+32607072744,PH,Singapore Post,3.73 USD,42-60 days,false
+32607072744,PH,AliExpress Standard Shipping,4.22 USD,40-60 days,false
+32607072744,PH,DHL,14.62 USD,10 days,true
+32607072744,PH,UPS Expedited,53.31 USD,18-23 days,true
+32607072744,PG,Singapore Post,4.23 USD,28-48 days,true
+32607072744,PG,AliExpress Standard Shipping,4.74 USD,28-48 days,true
+32607072744,PG,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,PE,AliExpress Standard Shipping,4.99 USD,51-60 days,true
+32607072744,PE,UPS Expedited,80.67 USD,23 days,true
+32607072744,PN,China Post Registered Air Mail,3.74 USD,28-48 days,true
+32607072744,PN,AliExpress Standard Shipping,4.81 USD,28-48 days,true
+32607072744,PS,China Post Registered Air Mail,4.00 USD,46-60 days,true
+32607072744,PS,Singapore Post,4.65 USD,15-60 days,false
+32607072744,PS,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,RE,Singapore Post,4.65 USD,47-60 days,false
+32607072744,RE,AliExpress Standard Shipping,5.18 USD,44-60 days,false
+32607072744,RE,DHL,63.94 USD,10 days,true
+32607072744,RE,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,NE,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,NE,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,NI,China Post Registered Air Mail,4.00 USD,60 days,false
+32607072744,NI,AliExpress Standard Shipping,5.18 USD,60 days,false
+32607072744,NI,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,PR,China Post Registered Air Mail,4.13 USD,31-49 days,false
+32607072744,PR,AliExpress Standard Shipping,5.18 USD,31-54 days,false
+32607072744,PR,UPS Expedited,64.15 USD,21-23 days,true
+32607072744,QA,China Post Registered Air Mail,4.05 USD,29-52 days,false
+32607072744,QA,Singapore Post,4.15 USD,31-56 days,false
+32607072744,QA,PostNL,4.46 USD,34-52 days,false
+32607072744,QA,AliExpress Standard Shipping,4.65 USD,29-48 days,false
+32607072744,QA,DHL,42.59 USD,10 days,true
+32607072744,QA,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,PA,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,PA,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,NG,AliExpress Standard Shipping,4.76 USD,28-43 days,true
+32607072744,NG,DHL,63.94 USD,10 days,true
+32607072744,NG,UPS Expedited,80.67 USD,23-34 days,true
+32607072744,PY,China Post Registered Air Mail,4.00 USD,56-60 days,false
+32607072744,PY,AliExpress Standard Shipping,5.18 USD,40-60 days,false
+32607072744,PY,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,MP,China Post Registered Air Mail,3.74 USD,28-48 days,false
+32607072744,MP,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,MP,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,OM,China Post Registered Air Mail,3.73 USD,44-60 days,false
+32607072744,OM,Singapore Post,4.15 USD,37-60 days,false
+32607072744,OM,AliExpress Standard Shipping,4.65 USD,35-54 days,false
+32607072744,OM,DHL,42.59 USD,10 days,true
+32607072744,OM,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,PK,China Post Registered Air Mail,3.54 USD,31-48 days,false
+32607072744,PK,Singapore Post,4.17 USD,34-55 days,false
+32607072744,PK,AliExpress Standard Shipping,4.67 USD,29-47 days,false
+32607072744,PK,DHL,49.73 USD,10 days,true
+32607072744,PK,UPS Expedited,80.67 USD,18-23 days,true
+32607072744,PW,Singapore Post,4.23 USD,28-48 days,false
+32607072744,PW,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,PW,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,NU,Singapore Post,4.23 USD,28-48 days,false
+32607072744,NU,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,NF,Singapore Post,4.11 USD,28-48 days,false
+32607072744,NF,AliExpress Standard Shipping,4.61 USD,28-48 days,false
+32607072744,NF,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,RO,China Post Registered Air Mail,3.80 USD,37-59 days,false
+32607072744,RO,PostNL,4.33 USD,32-45 days,false
+32607072744,RO,Singapore Post,4.80 USD,38-60 days,false
+32607072744,RO,AliExpress Standard Shipping,5.27 USD,35-57 days,false
+32607072744,RO,DHL,17.05 USD,10 days,true
+32607072744,RO,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,SH,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,LC,China Post Registered Air Mail,4.00 USD,39-60 days,false
+32607072744,LC,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,LC,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,SI,China Post Registered Air Mail,3.22 USD,28-41 days,true
+32607072744,SI,PostNL,4.28 USD,27-37 days,true
+32607072744,SI,Singapore Post,4.34 USD,31-52 days,true
+32607072744,SI,AliExpress Standard Shipping,4.84 USD,24-33 days,true
+32607072744,SI,DHL,17.77 USD,10 days,true
+32607072744,SI,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,KN,China Post Registered Air Mail,4.13 USD,28-48 days,false
+32607072744,KN,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,KN,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,SN,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,SN,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,SX,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,SB,Singapore Post,4.23 USD,28-48 days,false
+32607072744,SB,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,SB,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,WS,Singapore Post,4.23 USD,28-48 days,false
+32607072744,WS,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,WS,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,SC,AliExpress Standard Shipping,5.18 USD,42-60 days,false
+32607072744,SC,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,SA,China Post Registered Air Mail,3.33 USD,36 days,true
+32607072744,SA,Singapore Post,4.15 USD,26 days,true
+32607072744,SA,PostNL,4.46 USD,34 days,true
+32607072744,SA,AliExpress Standard Shipping,4.65 USD,28 days,true
+32607072744,SA,DHL,42.59 USD,10 days,true
+32607072744,SA,UPS Expedited,80.67 USD,22-23 days,true
+32607072744,SO,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,ST,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,SM,China Post Registered Air Mail,4.00 USD,45-60 days,false
+32607072744,SM,Singapore Post,4.47 USD,28-48 days,false
+32607072744,SM,AliExpress Standard Shipping,4.98 USD,28-48 days,false
+32607072744,SM,DHL,17.05 USD,10 days,true
+32607072744,SM,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,SL,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,SL,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,RW,AliExpress Standard Shipping,5.18 USD,36-60 days,false
+32607072744,RW,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,PM,China Post Registered Air Mail,4.13 USD,28-48 days,false
+32607072744,PM,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,VC,China Post Registered Air Mail,4.13 USD,28-48 days,false
+32607072744,VC,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,VC,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,SG,AliExpress Standard Shipping,2.78 USD,22-32 days,true
+32607072744,SG,China Post Registered Air Mail,3.01 USD,25-41 days,true
+32607072744,SG,PostNL,4.36 USD,30-41 days,true
+32607072744,SG,Singapore Post,4.65 USD,24-44 days,true
+32607072744,SG,DHL,19.68 USD,10 days,true
+32607072744,SG,UPS Expedited,53.31 USD,16-21 days,true
+32607072744,ZA,Singapore Post,4.15 USD,46-60 days,true
+32607072744,ZA,PostNL,4.46 USD,49-60 days,true
+32607072744,ZA,AliExpress Standard Shipping,4.76 USD,45-60 days,true
+32607072744,ZA,DHL,63.94 USD,10 days,true
+32607072744,ZA,UPS Expedited,80.67 USD,20-23 days,true
+32607072744,SZ,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,SZ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,SY,Singapore Post,4.65 USD,28-48 days,true
+32607072744,SY,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,SY,DHL,63.94 USD,10 days,true
+32607072744,SY,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,TZ,AliExpress Standard Shipping,5.18 USD,31-51 days,false
+32607072744,TZ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,LK,China Post Registered Air Mail,3.65 USD,31-53 days,false
+32607072744,LK,Singapore Post,4.23 USD,32-57 days,false
+32607072744,LK,AliExpress Standard Shipping,4.74 USD,26-46 days,false
+32607072744,LK,Seller's Shipping Method,13.91 USD,33-56 days,false
+32607072744,LK,DHL,49.73 USD,10 days,true
+32607072744,LK,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,SR,China Post Registered Air Mail,4.21 USD,38-60 days,true
+32607072744,SR,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,SR,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,TH,Singapore Post,2.80 USD,22-36 days,true
+32607072744,TH,AliExpress Standard Shipping,3.29 USD,21-28 days,true
+32607072744,TH,China Post Registered Air Mail,3.72 USD,20-30 days,true
+32607072744,TH,DHL,19.68 USD,10 days,true
+32607072744,TH,UPS Expedited,53.31 USD,18-23 days,true
+32607072744,SJ,AliExpress Standard Shipping,4.98 USD,28-48 days,false
+32607072744,TW,AliExpress Standard Shipping,4.22 USD,28-48 days,true
+32607072744,TW,Singapore Post,4.65 USD,28-48 days,true
+32607072744,TW,DHL,17.84 USD,10 days,true
+32607072744,TW,UPS Expedited,52.60 USD,15-23 days,true
+32607072744,TJ,Singapore Post,4.47 USD,42-59 days,false
+32607072744,TJ,AliExpress Standard Shipping,4.98 USD,39-56 days,false
+32607072744,TJ,DHL,63.94 USD,10 days,true
+32607072744,TJ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,SD,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,TM,Singapore Post,4.47 USD,48-60 days,false
+32607072744,TM,AliExpress Standard Shipping,4.98 USD,46-60 days,false
+32607072744,TG,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,TG,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,TO,AliExpress Standard Shipping,4.74 USD,28-48 days,true
+32607072744,TO,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,UA,China Post Registered Air Mail,3.00 USD,41 days,true
+32607072744,UA,Singapore Post,3.93 USD,28 days,true
+32607072744,UA,AliExpress Standard Shipping,4.17 USD,23 days,true
+32607072744,UA,PostNL,4.36 USD,33 days,true
+32607072744,UA,Seller's Shipping Method,12.98 USD,42-60 days,false
+32607072744,UA,DHL,63.94 USD,10 days,true
+32607072744,UA,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,TT,China Post Registered Air Mail,4.00 USD,41-60 days,false
+32607072744,TT,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,TT,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,TN,AliExpress Standard Shipping,5.18 USD,33-51 days,false
+32607072744,TN,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,TC,China Post Registered Air Mail,4.13 USD,28-48 days,false
+32607072744,TC,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,TC,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,TK,AliExpress Standard Shipping,4.81 USD,28-48 days,true
+32607072744,UG,AliExpress Standard Shipping,5.18 USD,33-44 days,false
+32607072744,UG,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,TV,Singapore Post,4.23 USD,28-48 days,true
+32607072744,TV,AliExpress Standard Shipping,4.74 USD,28-48 days,true
+32607072744,TV,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,AE,China Post Registered Air Mail,3.65 USD,36 days,true
+32607072744,AE,Singapore Post,4.15 USD,21 days,true
+32607072744,AE,PostNL,4.46 USD,36 days,true
+32607072744,AE,AliExpress Standard Shipping,4.65 USD,20 days,true
+32607072744,AE,Seller's Shipping Method,7.53 USD,35-58 days,false
+32607072744,AE,DHL,42.59 USD,10 days,true
+32607072744,AE,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,VU,Singapore Post,4.23 USD,28-48 days,false
+32607072744,VU,AliExpress Standard Shipping,4.74 USD,28-48 days,false
+32607072744,VU,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,VE,China Post Registered Air Mail,4.07 USD,49-60 days,false
+32607072744,VE,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,VE,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,UY,China Post Registered Air Mail,4.07 USD,41-60 days,false
+32607072744,UY,Singapore Post,4.65 USD,42-60 days,false
+32607072744,UY,AliExpress Standard Shipping,5.18 USD,42-60 days,false
+32607072744,UY,UPS Expedited,80.67 USD,15-23 days,true
+32607072744,UM,AliExpress Standard Shipping,4.98 USD,28-48 days,false
+32607072744,UZ,Singapore Post,4.47 USD,46-60 days,false
+32607072744,UZ,AliExpress Standard Shipping,4.98 USD,39-58 days,false
+32607072744,UZ,DHL,63.94 USD,10 days,true
+32607072744,UZ,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,VN,China Post Registered Air Mail,2.99 USD,29-47 days,false
+32607072744,VN,Singapore Post,3.07 USD,30-53 days,false
+32607072744,VN,AliExpress Standard Shipping,3.57 USD,26-44 days,false
+32607072744,VN,DHL,14.62 USD,10 days,true
+32607072744,VN,UPS Expedited,53.31 USD,15-23 days,true
+32607072744,YE,Singapore Post,4.65 USD,15-60 days,false
+32607072744,YE,DHL,63.94 USD,10 days,true
+32607072744,YE,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,VG,China Post Registered Air Mail,4.13 USD,28-48 days,false
+32607072744,VG,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,VG,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,EH,AliExpress Standard Shipping,5.18 USD,28-48 days,true
+32607072744,ZM,AliExpress Standard Shipping,5.18 USD,46-60 days,false
+32607072744,ZM,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,WF,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,WF,UPS Expedited,65.03 USD,15-23 days,true
+32607072744,VI,China Post Registered Air Mail,4.13 USD,37-60 days,false
+32607072744,VI,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,VI,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,ZW,AliExpress Standard Shipping,5.18 USD,48-60 days,false
+32607072744,ZW,UPS Expedited,138.96 USD,15-23 days,true
+32607072744,LR,AliExpress Standard Shipping,5.18 USD,28-48 days,false
+32607072744,LR,UPS Expedited,138.96 USD,15-23 days,true

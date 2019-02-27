@@ -18,7 +18,7 @@ productid,country,company,cost,estimatedTime,tracked
 32868589524,BE,ePacket,5.19 USD,22 days,true
 32868589524,BE,EMS,32.80 USD,27 days,true
 32868589524,BE,DHL,51.82 USD,8-18 days,true
-32868589524,BR,AliExpress Standard Shipping,0 USD,50 days,true
+32868589524,BR,AliExpress Standard Shipping,0 USD,48 days,true
 32868589524,BR,ePacket,5.53 USD,35 days,true
 32868589524,BR,EMS,39.24 USD,27 days,true
 32868589524,BR,DHL,99.45 USD,14-23 days,true
@@ -96,7 +96,7 @@ productid,country,company,cost,estimatedTime,tracked
 32868589524,NZ,AliExpress Standard Shipping,4.84 USD,13-20 days,true
 32868589524,NZ,EMS,24.60 USD,11-19 days,true
 32868589524,NZ,DHL,39.49 USD,9-17 days,true
-32868589524,PL,AliExpress Standard Shipping,0 USD,27 days,true
+32868589524,PL,AliExpress Standard Shipping,0 USD,28 days,true
 32868589524,PL,EMS,39.24 USD,27 days,true
 32868589524,PL,DHL,51.82 USD,8-15 days,true
 32868589524,PT,China Post Registered Air Mail,0 USD,21-38 days,true
@@ -123,7 +123,7 @@ productid,country,company,cost,estimatedTime,tracked
 32868589524,TR,EMS,35.14 USD,27 days,true
 32868589524,TR,DHL,66.25 USD,9-21 days,true
 32868589524,US,AliExpress Standard Shipping,0 USD,23 days,true
-32868589524,US,ePacket,0 USD,25 days,true
+32868589524,US,ePacket,0 USD,23 days,true
 32868589524,US,EMS,28.12 USD,26 days,true
 32868589524,US,DHL,40.27 USD,6-13 days,true
 32868589524,AG,China Post Registered Air Mail,2.21 USD,20-40 days,false
@@ -491,7 +491,7 @@ productid,country,company,cost,estimatedTime,tracked
 32868589524,NP,DHL,99.45 USD,7-15 days,true
 32868589524,LU,China Post Registered Air Mail,2.19 USD,29 days,true
 32868589524,LU,ePacket,5.19 USD,24 days,true
-32868589524,LU,AliExpress Standard Shipping,5.19 USD,25 days,true
+32868589524,LU,AliExpress Standard Shipping,5.19 USD,26 days,true
 32868589524,LU,EMS,32.80 USD,26 days,true
 32868589524,LU,DHL,51.82 USD,8-20 days,true
 32868589524,LB,China Post Registered Air Mail,2.05 USD,37-59 days,true
@@ -623,7 +623,7 @@ productid,country,company,cost,estimatedTime,tracked
 32868589524,SC,DHL,99.45 USD,10-21 days,true
 32868589524,SA,Aliexpress Direct,0 USD,10-20 days,true
 32868589524,SA,China Post Registered Air Mail,0 USD,36 days,true
-32868589524,SA,AliExpress Standard Shipping,4.87 USD,28 days,true
+32868589524,SA,AliExpress Standard Shipping,4.87 USD,30 days,true
 32868589524,SA,ePacket,5.19 USD,31 days,true
 32868589524,SA,EMS,52.14 USD,27 days,true
 32868589524,SA,DHL,66.25 USD,12-23 days,true
