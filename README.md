@@ -1,2 +1,3 @@
 # profuct_aliexpress
-#h1 python3 main.py
+# python3 main.py
+# URLS must be in urls.csv file
