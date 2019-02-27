@@ -1,6 +1,0 @@
-git checkout dev-version
-git add .
-git commit -a -m "msg"
-git push
-
-git commit *file* -m "msg"
