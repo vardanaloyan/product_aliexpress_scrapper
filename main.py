@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
 	for url in urls:
 		basic_field, basic_dct = basic.extract_product_info(url)
-		review_field, review_dct = review.extract_product_reviews(basic_dct['product_id'])
+		review_field, review_dct = review.Extract(basic_dct['product_id'])
 		shipping_field, shipping_dct = shipping.iterShipping(basic_dct['product_id'])
 		writer_basic = csv.DictWriter(f_basic, basic_field)
 		writer_review = csv.DictWriter(f_review, review_field)
