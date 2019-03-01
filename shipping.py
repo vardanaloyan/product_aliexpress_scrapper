@@ -36,23 +36,27 @@ def extract_product_shipping(product_id, country, unit = "USD"):
 
     resp = s.get(initial_url)
     if resp.status_code == 200:
-        data = str(resp.content).split('(')[1].strip("'").strip(')')
-        # print (data)
-        # print ('\n'*10)
-        false = "false"
-        true = "true"
-        null = "null"
-        data = eval(data)
-        data = data["freight"]
-        for dct in data:
+        data = str(resp.content)
+        #print (country, data, len(data))
+        if data == "":
+            data = data.split('(')[1].strip("'").strip(')')
+            # print (data)
+            # print ('\n'*10)
+            false = "false"
+            true = "true"
+            null = "null"
+            data = eval(data)
+            data = data["freight"]
+            for dct in data:
 #            print 'country: ', country, ', company: ', dct['companyDisplayName'], ', EstimatedTime: ', dct['time'], ', cost: ', dct['price'], ', tracked: ',dct['isTracked']
-            temp_dct = dict(productid = product_id, country = country, company = dct['companyDisplayName'],  cost = dct['price']+ ' %s' %currencyCode, estimatedTime = dct['time'] + ' days', tracked = dct['isTracked'])
-            shippings_tmp.append(temp_dct)
+                temp_dct = dict(productid = product_id, country = country, company = dct['companyDisplayName'],  cost = dct['price']+ ' %s' %currencyCode, estimatedTime = dct['time'] + ' days', tracked = dct['isTracked'])
+                shippings_tmp.append(temp_dct)
     return shippings_tmp
 
 def iterShipping(product_id, write_csv = False):
     shippings = []
     for i, country in enumerate(shipping_country_codes):
+        #if i <= 191: continue
         shippings += extract_product_shipping(product_id, country)
         print ("SHIPPING: {}\t{}/{} ".format(product_id, i+1, len(shipping_country_codes)))
     
@@ -69,6 +73,6 @@ def iterShipping(product_id, write_csv = False):
     return keys, shippings
 
 if __name__ == '__main__':
-    iterShipping('32868589524',  write_csv = True)
+    iterShipping('32861942420',  write_csv = True)
 
 

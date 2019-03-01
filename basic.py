@@ -241,5 +241,6 @@ def parse_desc(url, product_id):
 
 if __name__ == '__main__':
     url = "https://ru.aliexpress.com/item/2018-New-Born/32911137316.html?spm=a2g0v.search0104.3.7.1fb93c8bhKkOh7&ws_ab_test=searchweb0_0%2Csearchweb201602_4_10065_10068_319_10059_10884_317_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_537_536_10902%2Csearchweb201603_56%2CppcSwitch_0&algo_pvid=02daf209-3732-4d2b-b7a8-2c63e401d901&algo_expid=02daf209-3732-4d2b-b7a8-2c63e401d901-1"
+    url = "https://www.aliexpress.com/item/FIGOBELL-African-Printed-Swimwear-One-Piece-Swimsuit-2018-Women-High-Cut-Trikini-Thong-Monokini-Brazilian-Plus/32861942420.html?spm=a2g0v.10010108.1000001.11.70913119Xtj7g3&pvid=b4165f40-d921-4f01-a81d-d6b0f839a660&scm=1007.17258.127170.0"
     out = extract_product_info(url, write_csv = True)
     print(out[1]["product_id"])
