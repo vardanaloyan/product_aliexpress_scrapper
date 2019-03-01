@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import json
+import shutil
 import pickle
 from datetime import datetime
 from bs4 import BeautifulSoup
@@ -42,9 +43,7 @@ def extract_product_info(product_url, write_csv = False):
                 s = i.text
     # print script
     
-    _t = s[s.find(var1)+len(var1):]
-    desc_url = _t[:_t.find(';')].strip().replace('\t','').replace('\n','')
-    desc_urls = parse_desc(desc_url)
+
     # print desc_urls
     # tmp = s[s.find("[")+1:s.find("]")].strip().replace('\t','').replace('\n','')
     # print tmp
@@ -54,6 +53,12 @@ def extract_product_info(product_url, write_csv = False):
 
     product_id = soup.find('input', {'id': 'hid-product-id'})['value']
     # print "product-> ", product_id
+
+    _t = s[s.find(var1)+len(var1):]
+    desc_url = _t[:_t.find(';')].strip().replace('\t','').replace('\n','')
+    desc_urls = parse_desc(desc_url, product_id)
+
+
     title = soup.find('h1', {'class': 'product-name'}).text
 #    print title
     price= soup.find('span', {'id': 'j-sku-price', 'class': 'p-price'}).text
@@ -72,7 +77,8 @@ def extract_product_info(product_url, write_csv = False):
         val = item.find('span', {'class': 'propery-des'}).text
         attrs_dict[name] = val
     description = json.dumps(attrs_dict)
-
+    needed_desc = soup.find('ul',{'class': 'product-property-list util-clearfix'})
+    # print (needed_desc)
     # stars = float(soup.find('span', {'class': 'percent-num'}).text)
     # votes = int(soup.find('span', {'itemprop': 'reviewCount'}).text)
     # orders = int(soup.find('span', {'id': 'j-order-num'}).text.split()[0].replace(',', ''))
@@ -108,6 +114,7 @@ def extract_product_info(product_url, write_csv = False):
     category = ""
     subcategory1 = ""
     subcategory2 = ""
+    subcategory3 = ""
 
     try:
         cats = [item.text for item in soup.find('div', {'class': 'ui-breadcrumb'}).findAll('a')]
@@ -115,7 +122,7 @@ def extract_product_info(product_url, write_csv = False):
     except Exception:
         # category = ''
         cats = []
-
+    
     if len(cats) > 2:
         category = cats[2]
 
@@ -124,7 +131,8 @@ def extract_product_info(product_url, write_csv = False):
                 subcategory1 = sub
             elif i == 1:
                 subcategory2 = sub
-
+            elif i == 2:
+                subcategory3 = sub
     try:
         colors = [i['title'] for i in soup.find('ul', {'id': 'j-sku-list-1'}).findAll('a') if isinstance(i, bs4.element.Tag)]
     except:
@@ -140,25 +148,37 @@ def extract_product_info(product_url, write_csv = False):
     # print re.findall(regex_string, i.text)
 
     s=main_images[-1].text
-    image_urls = s[s.find("[")+1:s.find("]")].strip().replace('\t','').replace('\n','')
-    
+    image_urls = s[s.find("[")+1:s.find("]")].strip().replace('\t','').replace('\n','').replace('"',"").split(',')
+    # print (type(image_urls))
+    # print (image_urls)
+    if not os.path.isdir("Images"):
+        os.mkdir("Images")
+
+    needed_image_urls = []
+    for cnt, url in enumerate(image_urls):
+        # print (url)
+        response = requests.get(url, stream=True)
+        tmp_url = 'https://www.tntsale.com/tntsale.com/admin/tntsale.com/dx_com_scrape/Images/sku_{}_{}.jpg'.format(product_id, cnt)
+        needed_image_urls.append(tmp_url)
+        with open('Images/sku_{}_{}.jpg'.format(product_id, cnt), 'wb') as out_file:
+            shutil.copyfileobj(response.raw, out_file)
+        del response
+
     if len(colors) or len(sizes):
         productType = "variable"
     else:
         productType = "single"
 
-
-
     row = {
         'product_id': product_id,
         'name': title,
-        'description_text': eval(description),
+        'description_text': needed_desc, #eval(description)
         'price': price,
         'discount_price': discount_price,
         'colors': colors,
         'sizes': sizes,
         'productType': productType,
-        'image_urls': image_urls,
+        'image_urls': needed_image_urls,
         'desc_images' : desc_urls,
 #        'stars': stars,
 #        'votes': votes,
@@ -166,7 +186,7 @@ def extract_product_info(product_url, write_csv = False):
 #        'wishlists': wishlists,
 #        'is_free_shipping': is_free_shipping,
 #        'is_epacket': is_epacket,
-        'primary_image_url': primary_image_url,
+        # 'primary_image_url': primary_image_url,
 #        'store_id': store_id,
 #        'store_name': store_name,
 #        'store_start_date': store_start_date,
@@ -175,10 +195,11 @@ def extract_product_info(product_url, write_csv = False):
         'category': category,
         'subcategory1': subcategory1,
         'subcategory2': subcategory2,
+        'subcategory3': subcategory3,
         'product_url': product_url
     }
 
-    fields = ['product_url', 'product_id', 'name', 'price', 'discount_price', 'category', 'subcategory1', 'subcategory2', 'colors', 'sizes', 'productType', 'description_text', 'primary_image_url', 'image_urls', 'desc_images']
+    fields = ['product_url', 'product_id', 'name', 'price', 'discount_price', 'category', 'subcategory1', 'subcategory2', 'subcategory3', 'colors', 'sizes', 'productType', 'description_text', 'image_urls', 'desc_images']
 
     if write_csv:
         with open('basic_%s.csv' % product_id, 'w', encoding="utf-8") as f:
@@ -190,7 +211,7 @@ def extract_product_info(product_url, write_csv = False):
     return fields, row
 
 
-def parse_desc(url):
+def parse_desc(url, product_id):
     session = requests.Session()
     session.max_redirects = 9999999
     url = url.strip('"')
@@ -198,10 +219,20 @@ def parse_desc(url):
     content = page.content
     soup = BeautifulSoup(content, "html.parser")
     imgs = [i['src'] for i in soup.find_all("img")]
-    return imgs
-
+    if not os.path.isdir("Images"):
+        os.mkdir("Images")
+    desc_urls = []
+    for cnt, url in enumerate(imgs):
+        response = requests.get(url, stream=True)
+        tmp_url = 'https://www.tntsale.com/tntsale.com/admin/tntsale.com/dx_com_scrape/Images/sku_{}_{}_desc.jpg'.format(product_id, cnt)
+        desc_urls.append(tmp_url)
+        with open('Images/sku_{}_{}_desc.jpg'.format(product_id, cnt), 'wb') as out_file:
+            shutil.copyfileobj(response.raw, out_file)
+        del response
+    return desc_urls
 
 if __name__ == '__main__':
     url = "https://ru.aliexpress.com/store/product/Balabala-baby-girls-clothing-set-newborn-100-cotton-lovely-printed-clothes-suit-short-sleeve-t-shirt/3218069_32859893411.html?spm=a2g0v.12010612.8148356.1.4bf563b3NjjNzs"
+    url = "https://ru.aliexpress.com/item/TANGUOANT-Hot-Sale-1-8-Years-Girls-Short-Sleeve-Blue-Stripe-Summer-Dress-Cotton-Casual-Dresses/32815412601.html?spm=a2g0v.search0103.3.1.1fe46157viwF72&ws_ab_test=searchweb0_0,searchweb201602_4_10065_10068_319_10059_10884_317_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_537_536_10902,searchweb201603_56,ppcSwitch_0&algo_expid=022101f9-ef3a-4592-aae9-56ebf3fe1ed2-0&algo_pvid=022101f9-ef3a-4592-aae9-56ebf3fe1ed2"
     out = extract_product_info(url, write_csv = True)
     print(out[1]["product_id"])
