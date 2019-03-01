@@ -56,7 +56,7 @@ def extract_product_info(product_url, write_csv = False):
 
     _t = s[s.find(var1)+len(var1):]
     desc_url = _t[:_t.find(';')].strip().replace('\t','').replace('\n','')
-    desc_urls = parse_desc(desc_url, product_id)
+    desc_urls, desc_pics_html = parse_desc(desc_url, product_id)
 
 
     title = soup.find('h1', {'class': 'product-name'}).text
@@ -76,8 +76,10 @@ def extract_product_info(product_url, write_csv = False):
         name = item.find('span', {'class': 'propery-title'}).text[:-1]
         val = item.find('span', {'class': 'propery-des'}).text
         attrs_dict[name] = val
+
     description = json.dumps(attrs_dict)
-    needed_desc = soup.find('ul',{'class': 'product-property-list util-clearfix'})
+    needed_desc = soup.find('ul',{'class': 'product-property-list util-clearfix'}) #
+    needed_desc = str(needed_desc) + desc_pics_html.strip('\n')
     # print (needed_desc)
     # stars = float(soup.find('span', {'class': 'percent-num'}).text)
     # votes = int(soup.find('span', {'itemprop': 'reviewCount'}).text)
@@ -218,6 +220,7 @@ def parse_desc(url, product_id):
     page = session.get(url,headers=headers, verify=False)
     content = page.content
     soup = BeautifulSoup(content, "html.parser")
+    # print (len(soup.img))
     imgs = [i['src'] for i in soup.find_all("img")]
     if not os.path.isdir("Images"):
         os.mkdir("Images")
@@ -229,10 +232,14 @@ def parse_desc(url, product_id):
         with open('Images/sku_{}_{}_desc.jpg'.format(product_id, cnt), 'wb') as out_file:
             shutil.copyfileobj(response.raw, out_file)
         del response
-    return desc_urls
+
+    for i, img in enumerate(soup.find_all("img")):
+        img['src'] = 'https://www.tntsale.com/tntsale.com/admin/tntsale.com/dx_com_scrape/Images/sku_{}_{}_desc.jpg'.format(product_id, i)
+    # print(soup.prettify)
+    # print(page.text)
+    return desc_urls, str(soup) # page.text
 
 if __name__ == '__main__':
-    url = "https://ru.aliexpress.com/store/product/Balabala-baby-girls-clothing-set-newborn-100-cotton-lovely-printed-clothes-suit-short-sleeve-t-shirt/3218069_32859893411.html?spm=a2g0v.12010612.8148356.1.4bf563b3NjjNzs"
-    url = "https://ru.aliexpress.com/item/TANGUOANT-Hot-Sale-1-8-Years-Girls-Short-Sleeve-Blue-Stripe-Summer-Dress-Cotton-Casual-Dresses/32815412601.html?spm=a2g0v.search0103.3.1.1fe46157viwF72&ws_ab_test=searchweb0_0,searchweb201602_4_10065_10068_319_10059_10884_317_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_537_536_10902,searchweb201603_56,ppcSwitch_0&algo_expid=022101f9-ef3a-4592-aae9-56ebf3fe1ed2-0&algo_pvid=022101f9-ef3a-4592-aae9-56ebf3fe1ed2"
+    url = "https://ru.aliexpress.com/item/2018-New-Born/32911137316.html?spm=a2g0v.search0104.3.7.1fb93c8bhKkOh7&ws_ab_test=searchweb0_0%2Csearchweb201602_4_10065_10068_319_10059_10884_317_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_537_536_10902%2Csearchweb201603_56%2CppcSwitch_0&algo_pvid=02daf209-3732-4d2b-b7a8-2c63e401d901&algo_expid=02daf209-3732-4d2b-b7a8-2c63e401d901-1"
     out = extract_product_info(url, write_csv = True)
     print(out[1]["product_id"])
