@@ -34,11 +34,11 @@ def extract_product_shipping(product_id, country, unit = "USD"):
 
     s = requests.Session()
 
-    resp = s.get(initial_url)
+    resp = s.get(initial_url, verify=False)
     if resp.status_code == 200:
         data = str(resp.content)
         #print (country, data, len(data))
-        if data == "":
+        if data != "":
             data = data.split('(')[1].strip("'").strip(')')
             # print (data)
             # print ('\n'*10)

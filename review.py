@@ -45,7 +45,7 @@ def extract_product_reviews(product_id, country = "US", max_page=2000, write_csv
     initial_url = url_template.format(1, product_id, country)
     reviews = []
     s = requests.Session()
-    resp = s.get(initial_url)
+    resp = s.get(initial_url, verify = False)
     if resp.status_code == 200:
         data = resp.json()
         total_page = data['totalPage']
@@ -58,7 +58,7 @@ def extract_product_reviews(product_id, country = "US", max_page=2000, write_csv
             while next_page <= total_page:
                 print('REVIEW: {}\t{}/{}'.format(product_id, next_page, total_page))
                 next_url = url_template.format(next_page, product_id, country)
-                resp = s.get(next_url)
+                resp = s.get(next_url, verify=False)
 
                 next_page += 1
 

@@ -159,7 +159,7 @@ def extract_product_info(product_url, write_csv = False):
     needed_image_urls = []
     for cnt, url in enumerate(image_urls):
         # print (url)
-        response = requests.get(url, stream=True)
+        response = requests.get(url, stream=True, verify = False)
         tmp_url = 'https://www.tntsale.com/tntsale.com/admin/tntsale.com/dx_com_scrape/Images/sku_{}_{}.jpg'.format(product_id, cnt)
         needed_image_urls.append(tmp_url)
         with open('Images/sku_{}_{}.jpg'.format(product_id, cnt), 'wb') as out_file:
@@ -226,7 +226,7 @@ def parse_desc(url, product_id):
         os.mkdir("Images")
     desc_urls = []
     for cnt, url in enumerate(imgs):
-        response = requests.get(url, stream=True)
+        response = requests.get(url, stream=True, verify = False)
         tmp_url = 'https://www.tntsale.com/tntsale.com/admin/tntsale.com/dx_com_scrape/Images/sku_{}_{}_desc.jpg'.format(product_id, cnt)
         desc_urls.append(tmp_url)
         with open('Images/sku_{}_{}_desc.jpg'.format(product_id, cnt), 'wb') as out_file:
