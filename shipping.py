@@ -38,7 +38,7 @@ def extract_product_shipping(product_id, country, unit = "USD"):
     if resp.status_code == 200:
         data = str(resp.content)
         #print (country, data, len(data))
-        if data != "":
+        if len(data) != 3:
             data = data.split('(')[1].strip("'").strip(')')
             # print (data)
             # print ('\n'*10)
@@ -51,13 +51,17 @@ def extract_product_shipping(product_id, country, unit = "USD"):
 #            print 'country: ', country, ', company: ', dct['companyDisplayName'], ', EstimatedTime: ', dct['time'], ', cost: ', dct['price'], ', tracked: ',dct['isTracked']
                 temp_dct = dict(productid = product_id, country = country, company = dct['companyDisplayName'],  cost = dct['price']+ ' %s' %currencyCode, estimatedTime = dct['time'] + ' days', tracked = dct['isTracked'])
                 shippings_tmp.append(temp_dct)
+        else:
+            return None
     return shippings_tmp
 
 def iterShipping(product_id, write_csv = False):
     shippings = []
     for i, country in enumerate(shipping_country_codes):
-        #if i <= 191: continue
-        shippings += extract_product_shipping(product_id, country)
+        #if i <= 190: continue
+        _tmp = extract_product_shipping(product_id, country)
+        if _tmp is not None:
+            shippings += _tmp
         print ("SHIPPING: {}\t{}/{} ".format(product_id, i+1, len(shipping_country_codes)))
     
     keys = ['productid', 'country', 'company', 'cost', 'estimatedTime', 'tracked']
