@@ -2,7 +2,8 @@ import basic
 import review
 import shipping
 import csv
-
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 def readUrls(file):
 	urls_list = []
 	with open(file, 'r') as f:

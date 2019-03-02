@@ -1,5 +1,8 @@
 import csv
 import requests
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 shipping_country_codes =     ['AR', 'AT', 'AU', 'BE', 'BR', 'CA', 'CH', 'CL', 'CZ', 'DE', 'DK',
                               'ES', 'FI', 'FR', 'GB', 'IE', 'IL', 'IN', 'IT', 'MX', 'NL', 'NO',
                               'NZ', 'PL', 'PT', 'RU', 'SE', 'SK', 'TR', 'US', 'AG', 'AO', 'AW',
@@ -96,5 +99,5 @@ def extract_product_reviews(product_id, country = "US", max_page=2000, write_csv
 
 
 if __name__ == '__main__':
-    extract_product_reviews('32859893411', write_csv = True)
+    Extract('32861942420', write_csv = True)
 
